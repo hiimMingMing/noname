@@ -6,7 +6,7 @@
  */
 
 import { i18n } from './index.js';
-import { setupTranslationInterceptor } from './interceptor.js';
+import { setupTranslationInterceptor, setupAutoTranslation, setupGameTranslation } from './interceptor.js';
 import { game, lib } from 'noname';
 
 /**
@@ -33,6 +33,26 @@ export async function initI18n() {
 
 		// Setup translation interceptor to make translations work automatically
 		setupTranslationInterceptor();
+
+		// Setup auto-translation for alert, confirm, prompt
+		setupAutoTranslation();
+
+		// Setup auto-translation for game.log and game.alert (if game is available)
+		if (typeof game !== 'undefined' && game.log) {
+			setupGameTranslation();
+		} else {
+			// Setup game translation later when game object is ready
+			// Poll for game object availability
+			const checkGame = () => {
+				if (typeof game !== 'undefined' && game.log) {
+					setupGameTranslation();
+					console.log('[i18n] Game translation setup completed (delayed)');
+				} else {
+					setTimeout(checkGame, 100); // Check every 100ms
+				}
+			};
+			setTimeout(checkGame, 100);
+		}
 
 		// Add translation helper to get
 		if (typeof get !== 'undefined' && !get.translation) {

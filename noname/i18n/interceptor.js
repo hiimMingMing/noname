@@ -9,6 +9,39 @@ import { i18n } from './index.js';
 import { lib } from 'noname';
 
 /**
+ * Translate a Chinese string to current locale
+ * @param {string} text - Chinese text to translate
+ * @returns {string} Translated text or original if no translation found
+ */
+export function translateText(text) {
+	if (!text || typeof text !== 'string') return text;
+
+	// If current locale is Chinese, return original
+	if (i18n.currentLocale === 'zh-CN') {
+		return text;
+	}
+
+	// Try to find translation
+	const translations = i18n.translations[i18n.currentLocale];
+	if (translations) {
+		// Check all categories for this translation key
+		for (const category in translations) {
+			if (translations[category][text]) {
+				return translations[category][text];
+			}
+		}
+	}
+
+	// Fall back to lib.translate
+	if (lib.translate && lib.translate[text]) {
+		return lib.translate[text];
+	}
+
+	// Return original text
+	return text;
+}
+
+/**
  * Setup translation interceptor
  * This wraps lib.translate in a Proxy to intercept translation lookups
  */
@@ -112,6 +145,80 @@ export function setupTranslationInterceptor() {
 	});
 
 	console.log('[i18n] Translation interceptor installed');
+}
+
+/**
+ * Setup auto-translation for alert, confirm, and game functions
+ * This wraps these global functions to automatically translate Chinese strings
+ */
+export function setupAutoTranslation() {
+	// Save original functions
+	const originalAlert = window.alert;
+	const originalConfirm = window.confirm;
+	const originalPrompt = window.prompt;
+
+	// Override alert to auto-translate
+	window.alert = function(message) {
+		const translated = translateText(message);
+		return originalAlert.call(this, translated);
+	};
+
+	// Override confirm to auto-translate
+	window.confirm = function(message) {
+		const translated = translateText(message);
+		return originalConfirm.call(this, translated);
+	};
+
+	// Override prompt to auto-translate
+	window.prompt = function(message, defaultValue) {
+		const translated = translateText(message);
+		return originalPrompt.call(this, translated, defaultValue);
+	};
+
+	console.log('[i18n] Auto-translation for alert/confirm/prompt installed');
+}
+
+/**
+ * Setup auto-translation for game.log and game.alert
+ * Must be called after game object is initialized
+ */
+export function setupGameTranslation() {
+	if (typeof game === 'undefined') {
+		console.warn('[i18n] game object not found, skipping game translation setup');
+		return;
+	}
+
+	// Save original game.log
+	const originalGameLog = game.log;
+	if (originalGameLog && !originalGameLog.__i18nWrapped) {
+		game.log = function(...args) {
+			const translatedArgs = args.map(arg => {
+				if (typeof arg === 'string') {
+					return translateText(arg);
+				}
+				return arg;
+			});
+			return originalGameLog.apply(this, translatedArgs);
+		};
+		game.log.__i18nWrapped = true;
+	}
+
+	// Save original game.alert
+	const originalGameAlert = game.alert;
+	if (originalGameAlert && !originalGameAlert.__i18nWrapped) {
+		game.alert = function(...args) {
+			const translatedArgs = args.map(arg => {
+				if (typeof arg === 'string') {
+					return translateText(arg);
+				}
+				return arg;
+			});
+			return originalGameAlert.apply(this, translatedArgs);
+		};
+		game.alert.__i18nWrapped = true;
+	}
+
+	console.log('[i18n] Auto-translation for game.log/game.alert installed');
 }
 
 /**

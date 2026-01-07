@@ -150,7 +150,7 @@ export class I18n {
 			return;
 		}
 
-		const categories = ["core", "cards", "characters", "modes", "menu"];
+		const categories = ["core", "cards", "characters", "modes", "menu", "gameplay"];
 		this.translations[locale] = {};
 
 		console.log(`[i18n] Loading translations for ${locale}...`);
