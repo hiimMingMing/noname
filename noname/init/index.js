@@ -3,7 +3,7 @@ import { rootURL, lib, game, get, _status, ui, ai } from "noname";
 import { userAgentLowerCase } from "@/util/index.js";
 import * as config from "@/util/config.js";
 import { setOnError } from "@/util/error.ts";
-import { security, initializeSandboxRealms } from "@/util/sandbox.js";
+import { security, initializeSandboxRealms } from "@/util/sandbox.ts";
 import { CacheContext } from "@/library/cache/cacheContext.js";
 import { importCardPack, importCharacterPack, importExtension, importMode } from "./import.js";
 import { loadCard, loadCardPile, loadCharacter, loadExtension, loadMode, loadPlay } from "./loading.js";
@@ -41,6 +41,14 @@ export async function boot() {
 	setOnError({ lib, game, get, _status });
 
 	await loadConfig();
+
+	// Initialize i18n system
+	try {
+		const { initI18n } = await import("@/i18n/init.js");
+		await initI18n();
+	} catch (error) {
+		console.warn('[Init] i18n initialization failed, continuing without i18n:', error);
+	}
 
 	for (const name in get.config("translate")) {
 		lib.translate[name] = get.config("translate")[name];

@@ -17,9 +17,9 @@ import { DynamicStyle } from "./dynamic-style/index.js";
 import { GamePromises } from "./promises.js";
 import { Check } from "./check.js";
 
-import { security } from "@/util/sandbox.js"
+import { security } from "@/util/sandbox.ts";
 import { save } from "@/util/config.js";
-import { debounce } from "@/util/utils.js";
+import { debounce } from "@/util/utils.ts";
 
 export class Game {
 	documentZoom;
@@ -3033,12 +3033,12 @@ export class Game {
 			}
 		}
 		if (object.config) {
-			Object.keys(object.config).forEach((key) => {
+			Object.keys(object.config).forEach(key => {
 				Object.defineProperty(extensionMenu, key, Object.getOwnPropertyDescriptor(object.config, key));
 			});
 		}
 		if (object.help) {
-			Object.keys(object.help).forEach((key) => {
+			Object.keys(object.help).forEach(key => {
 				Object.defineProperty(lib.help, key, Object.getOwnPropertyDescriptor(object.help, key));
 			});
 		}
@@ -3157,7 +3157,7 @@ export class Game {
 					alert(`加载《${name}》扩展的precontent时出现错误。
 该错误本身可能并不影响扩展运行。您可以在“设置→通用→无视扩展报错”中关闭此弹窗。
 错误信息: 
-${(e instanceof Error ? e.stack : String(e))}`);
+${e instanceof Error ? e.stack : String(e)}`);
 				}
 			}
 

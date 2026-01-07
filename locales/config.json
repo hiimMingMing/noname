@@ -1,0 +1,36 @@
+{
+	"locales": {
+		"vi-VN": {
+			"name": "Tiếng Việt",
+			"nativeName": "Tiếng Việt",
+			"direction": "ltr",
+			"enabled": true,
+			"isDefault": true,
+			"description": "Phiên bản tiếng Việt phong cách kiếm hiệp",
+			"translator": "Noname Community",
+			"style": "martial-arts"
+		},
+		"zh-CN": {
+			"name": "简体中文",
+			"nativeName": "简体中文",
+			"direction": "ltr",
+			"enabled": true,
+			"isDefault": false
+		},
+		"en-US": {
+			"name": "English",
+			"nativeName": "English",
+			"direction": "ltr",
+			"enabled": true,
+			"isDefault": false
+		}
+	},
+	"fallbackLocale": "vi-VN",
+	"categories": [
+		"core",
+		"cards",
+		"characters",
+		"modes",
+		"menu"
+	]
+}

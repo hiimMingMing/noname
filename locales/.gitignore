@@ -1,0 +1,22 @@
+# Locale files gitignore
+# This prevents accidental commits of incomplete or work-in-progress translations
+
+# Ignore all JSON files by default
+*.json
+
+# But include the configuration file
+!config.json
+
+# Include Vietnamese translations (complete)
+!vi-VN/*.json
+
+# Include example/template files if created
+!**/template.json
+!**/example.json
+
+# Ignore editor temporary files
+*.tmp
+*.bak
+*~
+.DS_Store
+Thumbs.db

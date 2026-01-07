@@ -1,0 +1,66 @@
+{
+	"_comment": "Vietnamese translations for game modes - Martial arts/Wuxia style",
+	"_description": "Bản dịch tiếng Việt cho các chế độ chơi - Phong cách kiếm hiệp",
+
+	"zhu": "Chủ",
+	"zhong": "Trung",
+	"mingzhong": "Trung",
+	"nei": "Nội",
+	"fan": "Phản",
+	"commoner": "Dân",
+	"cai": "Đoán",
+	"cai2": "Đoán",
+
+	"rZhu": "Chủ",
+	"rZhong": "Trung",
+	"rNei": "Nội",
+	"rYe": "Dã",
+	"rZhu2": "Chủ Soái",
+	"rZhong2": "Tiền Phong",
+	"rNei2": "Tế Tác",
+	"rYe2": "Dã Tâm Gia",
+
+	"bZhu": "Chủ",
+	"bZhong": "Trung",
+	"bNei": "Nội",
+	"bYe": "Dã",
+	"bZhu2": "Chủ Soái",
+	"bZhong2": "Tiền Phong",
+	"bNei2": "Tế Tác",
+	"bYe2": "Dã Tâm Gia",
+
+	"zhu2": "Chủ Công",
+	"zhong2": "Trung Thần",
+	"mingzhong2": "Minh Trung",
+	"nei2": "Nội Gian",
+	"fan2": "Phản Tặc",
+	"commoner2": "Bình Dân",
+	"random2": "Ngẫu Nhiên",
+
+	"enemy": "Địch",
+	"friend": "Hữu",
+	"enemy2": "Địch Phương",
+	"friend2": "Hữu Phương",
+
+	"identity_junshi_bg": "Sư",
+	"identity_dajiang_bg": "Tướng",
+	"identity_zeishou_bg": "Thủ",
+	"identity_junshi": "Quân Sư",
+	"identity_dajiang": "Đại Tướng",
+	"identity_zeishou": "Tặc Thủ",
+
+	"ai_strategy_1": "Quân Hành",
+	"ai_strategy_2": "Thiên Phản",
+	"ai_strategy_3": "Thiên Chủ",
+	"ai_strategy_4": "Tương Dầu",
+	"ai_strategy_5": "Thiên Thần",
+	"ai_strategy_6": "Cừu Chủ",
+
+	"yexinbilu": "Dã Tâm Tất Lộ",
+	"stratagem_insight": "Động Sát",
+
+	"sixiang_zhuque": "Chu Tước",
+	"sixiang_xuanwu": "Huyền Vũ",
+	"sixiang_qinglong": "Thanh Long",
+	"sixiang_baihu": "Bạch Hổ"
+}

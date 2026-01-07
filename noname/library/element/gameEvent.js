@@ -1,6 +1,6 @@
 import { _status, game, get, lib, ui } from "noname";
 import { Player } from "./index.js";
-import { security } from "@/util/sandbox.js"
+import { security } from "@/util/sandbox.ts"
 import ContentCompiler from "./GameEvent/compilers/ContentCompiler.ts";
 import GameEventManager from "./GameEvent/GameEventManager.ts";
 export { GameEventManager, ContentCompiler };

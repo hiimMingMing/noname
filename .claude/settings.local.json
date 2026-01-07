@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git stash:*)",
+      "Bash(pnpm run dev)",
+      "Bash(for file in noname/game/index.js noname/get/index.js noname/library/element/client.js noname/library/element/gameEvent.js noname/library/element/player.js noname/library/init/index.js noname/ui/create/index.js noname/ui/create/menu/pages/exetensionMenu.js noname/ui/create/menu/pages/otherMenu.js)",
+      "Bash(do sed -i 's/@\\/util\\/sandbox\\.js/@\\/util\\/sandbox.ts/g' \"$file\")",
+      "Bash(done)",
+      "Bash(tasklist:*)",
+      "Bash(findstr:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

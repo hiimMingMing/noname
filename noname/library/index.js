@@ -14,8 +14,8 @@ import { Announce } from "./announce/index.js";
 import { experimental } from "./experimental/index.js";
 import * as Element from "./element/index.js";
 import { updateURLs } from "./update-urls.js";
-import { defaultHooks } from "./hooks/index.js";
-import { security, ErrorManager } from "@/util/sandbox.js";
+import { defaultHooks } from "./hooks/index.ts";
+import { security, ErrorManager } from "@/util/sandbox.ts";
 import { nonameInitialized, assetURL, userAgentLowerCase, GeneratorFunction, AsyncFunction, characterDefaultPicturePath } from "@/util/index.js";
 
 import { defaultSplashs } from "@/init/onload/index.js";
@@ -943,6 +943,39 @@ export class Library {
 		general: {
 			name: "通用",
 			config: {
+				language: {
+					name: 'Ngôn ngữ / 语言 / Language',
+					init: 'vi-VN',
+					intro: 'Chọn ngôn ngữ trò chơi / 选择游戏语言 / Select game language',
+					item: {
+						'vi-VN': 'Tiếng Việt (Kiếm hiệp)',
+						'zh-CN': '简体中文',
+						'en-US': 'English'
+					},
+					restart: true,
+					visualMenu(node, link, name, config) {
+						// Add flags/icons to language options
+						const langs = {
+							'zh-CN': '🇨🇳 简体中文',
+							'en-US': '🇺🇸 English',
+							'vi-VN': '🇻🇳 Tiếng Việt'
+						};
+						if (node && langs[config]) {
+							node.innerHTML = langs[config];
+						}
+					},
+					async onclick(language) {
+						game.saveConfig('language', language);
+						// Show multilingual confirmation message
+						const messages = {
+							'vi-VN': 'Đã đổi ngôn ngữ sang Tiếng Việt (Kiếm hiệp)\nVui lòng khởi động lại trò chơi để áp dụng thay đổi',
+							'zh-CN': '语言已更改为简体中文\n请重新启动游戏以应用更改',
+							'en-US': 'Language changed to English\nPlease restart the game to apply changes'
+						};
+						const message = messages[language] || messages['vi-VN'];
+						alert(message);
+					}
+				},
 				mount_combine: {
 					name: "合并坐骑栏",
 					init: false,

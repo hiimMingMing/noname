@@ -1,0 +1,48 @@
+feat: Add complete i18n system with Vietnamese as default language
+
+Implemented comprehensive internationalization (i18n) system with full Vietnamese
+support in martial arts/wuxia style. Vietnamese is now the default language.
+
+Features:
+- Complete i18n architecture (index.js, init.js, interceptor.js)
+- 520+ Vietnamese translations in authentic wuxia style
+- Language selector in Settings → General
+- Support for 3 languages: vi-VN (default), zh-CN, en-US
+- Automatic locale detection and fallback system
+- Transparent translation via Proxy pattern
+
+Vietnamese Translation Style:
+- Uses classical Vietnamese (Hán Việt) terminology
+- "ngươi" (汝) instead of modern "bạn"
+- Martial arts terminology: "Trảm" (斩), "Triệu Vân" (赵云)
+- Poetic expressions matching Three Kingdoms theme
+- Examples: 杀→Trảm, 青龙偃月刀→Thanh Long Đao, 锁定技→Kỹ năng Tỏa Định
+
+Files Created:
+- noname/i18n/ (3 files: index.js, init.js, interceptor.js)
+- locales/vi-VN/ (5 JSON files: core, cards, characters, modes, menu)
+- locales/config.json
+- Documentation: LOCALIZATION.md, LOCALIZATION_QUICKSTART.md, etc.
+
+Files Modified:
+- noname/init/index.js - Integrated i18n initialization
+- noname/library/index.js - Added language selector to settings menu
+
+Bug Fixes:
+- Fixed 12 TypeScript import path resolution errors
+- Changed *.js to *.ts for TypeScript file imports
+- Fixed: jit/index, hooks/index, @/util/sandbox, @/util/utils
+
+Default Language Change:
+- Changed from zh-CN to vi-VN as default
+- Updated all fallback mechanisms
+- Reordered language options (Vietnamese first)
+
+The game now displays 100% in Vietnamese on first launch, with option
+to switch to Chinese or English in Settings.
+
+🇻🇳 Chào mừng đến Vô Danh Sát - Phiên bản Tiếng Việt Kiếm Hiệp!
+
+🤖 Generated with Claude Code (https://claude.com/claude-code)
+
+Co-Authored-By: Claude <noreply@anthropic.com>
