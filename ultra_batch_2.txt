@@ -1,0 +1,1470 @@
+],
+	//无名杀自己的技能
+	弹雀: [
+行号: ${frame.lineNumber}
+] 的索引
+ * 支持以下几种情况:
+ *
+plain
+ * 判断是否为基元类型
+ *
+plain
+	 * 处理新的运行域
+	 *
+plain
+	 * 获取当前运行域
+	 *
+plain
+	 * 获取顶级运行域
+	 *
+plain
+ * 确保对象是安全对象
+ *
+的相关类
+ *
+ * 请注意，这需要先判断
+plain
+ * 加载当前的垫片函数
+ *
+plain
+	 * 进入沙盒运行模式
+	 *
+语言 / Language / Ngôn ngữ
+plain
+	 * 获取当前代码片段
+	 *
+plain
+	 * 弹出当前代码片段
+	 *
+plain
+	 * 创建一个封送规则
+	 *
+plain
+	 * 判断是否应该封送
+	 *
+plain
+	 * 判断是否禁止封送
+	 *
+).
+		// 	replace(/限定技/g,
+).
+		// 	replace(/觉醒技/g,
+).
+		// 	replace(/主将技/g,
+).
+		// 	replace(/副将技/g,
+).
+		// 	replace(/阵法技/g,
+).
+		// 	replace(/主公技/g,
+列号: ${frame.columnNumber}
+plain
+	 * 向用户报告错误信息
+	 *
+,
+
+	// 对于 cordova 的特殊处理
+plain
+	 * 将回调函数进行装箱
+	 *
+plain
+	 * 将回调函数进行拆箱
+	 *
+plain
+	 * 检查沙盒操作运行域
+	 *
+plain
+ * 判断对象是否是安全对象
+ *
+plain
+ * 判断是否是沙盒运行模式
+ *
+plain
+	 * 判断事件能否继续执行
+	 *
+plain
+	 * 获取设置的错误报告器
+	 *
+plain
+	 * 是否允许对象进行封送
+	 *
+plain
+	 * 启动 Monitor
+	 *
+plain
+	 * 停止 Monitor
+	 *
+plain
+ * 提供运行域之间的对象封送
+ *
+plain
+	 * 获取当前的scope
+	 *
+plain
+ * 是否可以跳过沙盒进行编译
+ *
+令${get.translation(target)}
+, //正常，即播放“杀”的音效。
+			kami:
+plain
+	 * 获取函数对应的代码片段
+	 *
+plain
+	 * 设置函数对应的代码片段
+	 *
+plain
+	 * 将一个对象映射为全局键
+	 *
+plain
+	 * 将一个全局键映射为对象
+	 *
+plain
+	 * 将原生函数进行调用封装
+	 *
+plain
+	 * 将原生函数进行构造封装
+	 *
+plain
+	 * 指定某个对象的封送规则
+	 *
+plain
+	 * 获取封送对象的源运行域
+	 *
+plain
+	 * 获取当前沙盒内的运行域
+	 *
+，
+	 * 则将自动继承前面的内建对象，无需再次调用
+plain
+	 * 根据运行域获取沙盒对象
+	 *
+plain
+ * 退出当前联网传输的运行沙盒
+ *
+],
+			yunjiao: {
+				一麻: [
+plain
+	 * 测试一段代码是否为函数体
+	 *
+剩余 <span style="font-family:
+plain
+	 * 陷入某个运行域并执行代码
+	 *
+plain
+	 * 获取调用链中上一个运行域
+	 *
+) {
+			str += '对<span class=
+plain
+	 * 对无法直接编译的数据做处理
+	 *
+plain
+	 * 判断是否是顶级域的内建对象
+	 *
+plain
+	 * 初始化运行域的全局对象映射
+	 *
+plain
+	 * 对某个域的原生函数进行封装
+	 *
+plain
+	 * 对于具体的原生函数进行封装
+	 *
+plain
+	 * 获取指定对象的封送规则引用
+	 *
+plain
+ * 获取当前指定的联网传输运行沙盒
+ *
+保持一致
+	 * - 手机端(cordova): 需要使用
+plain
+	 * 对于事件执行前的一些准备工作
+	 *
+plain
+	 * 对于事件执行后的一些收尾工作
+	 *
+${get.cnNumber(playerNumber)}人
+plain
+	 * 根据选择器对原生函数进行封装
+	 *
+plain
+ * 将对象从源运行域封送到目标运行域
+ *
+的样式
+	 * game.dynamicStyle.add(
+'属性，任何 Primitive 值都不允许有property
+plain
+	 * 测试一段代码是否为函数参数列表
+	 *
+外，没任何可能
+	 * - 电脑端(electron): 和
+plain
+	 * 给定错误行号来获取错误代码片段
+	 *
+plain
+	 * 计算错误A比错误B多的堆栈层数
+	 *
+plain
+	 * 将原生GETTER进行调用封装
+	 *
+plain
+	 * 将原生SETTER进行调用封装
+	 *
+plain
+	 * 分发 Monitor 监听事件
+	 *
+plain
+	 * 安装一个 Monitor 监控
+	 *
+plain
+	 * 卸载一个 Monitor 监控
+	 *
+plain
+	 * 处理 Monitor 监听事件
+	 *
+plain
+	 * 判断某个对象是否指定了封送规则
+	 *
+plain
+	 * 检查对象是否来自于当前的运行域
+	 *
+plain
+ * 导出当前沙盒的Function类型
+ *
+);
+	 *
+	 * @example
+	 * // 移除
+;
+// 保证打包时存在(importmap)
+import
+还没初始化完成，必须运行时读取翻译，不能内嵌
+		return
+指定在发生错误时，错误信息指出的行与实际代码行的偏移量
+	 *
+plain
+	 * 压入一个代码片段作为当前代码片段
+	 *
+plain
+	 * 检查对象是否是Promise对象
+	 *
+时必须指定持久化ID来确保每次访问的持久化数据的一致性
+	 *
+plain
+ * 将一个沙盒作为当前联网传输的运行沙盒
+ *
+plain
+ * 检查服务器地址并请求进入沙盒运行模式
+ *
+plain
+ * 初始化顶级域的Funcion类型封装
+ *
+]);
+	 *
+	 * @example
+	 * // 如果
+>第' + get.cnNumber(i + 1, true) +
+plain
+	 * 当前编译器的事件content类型
+	 *
+plain
+	 * 获取错误堆栈中与行列无关的错误信息
+	 *
+plain
+	 * 初始化顶级运行域的Function
+	 *
+plain
+	 * 获取 Monitor 所属的运行域
+	 *
+plain
+	 * 判断 Monitor 是否已经启动
+	 *
+plain
+	 * 根据目标对象的特征复制一个基本对象
+	 *
+plain
+	 * 封装沙盒的 Function 函数
+	 *
+],
+		//所有锦囊都可以用无懈可击响应
+		trick: [
+>攻击范围：' + (-dist.attackFrom + 1) +
+, " 进入房间观战");
+						game.me.chat(
+plain
+	 * 构造一个代码片段对象
+	 *
+	 * 通过
+plain
+	 * 在当前运行域安装一个 Monitor
+	 *
+plain
+	 * 从当前运行域卸载一个 Monitor
+	 *
+plain
+	 * 指定 Monitor 监听的访问动作
+	 *
+plain
+	 * 获取当前沙盒内的document对象
+	 *
+plain
+	 * 设置当前沙盒内的document对象
+	 *
+: chars[numStr[0]]}十${numStr[1] ===
+plain
+	 * 检查当前是否是 Rule 所属的运行域
+	 *
+plain
+	 * 对新的运行域进行 Monitor 安装
+	 *
+plain
+	 * 对于封送或未封送的函数执行转字符串操作
+	 *
+元素的样式
+	 * game.dynamicStyle.remove(
+],
+		//所有伤害牌都可以用草船借箭响应
+		damage: [
+plain
+			 * 当客机向主机发送投降请求时的回调
+			 *
+-------------\n调用堆栈:\n${this.#stack}
+plain
+	 * 检查当前的规则是否允许封送到指定的运行域
+	 *
+plain
+	 * 向外暴露 Monitor 监听的相关数据
+	 *
+plain
+	 * 判断某个对象是否是其他运行域被封送的对象
+	 *
+plain
+	 * 检查对象是否来自于当前的运行域的危险对象
+	 *
+plain
+	 * 判断事件content是否被当前编译器支持
+	 *
+plain
+ * 对于原生函数进行封装
+ *
+ * 非暴露类
+ *
+plain
+	 * 检查对象是否来自于当前的运行域的Error
+	 *
+]; // 传递的实例垫片
+const pfNamespaces = [
+;
+		// 设置帮助页面的类名
+		page.classList.add(
+}身份`;
+			}
+		}
+		if (config.mode ==
+,
+			{
+				/**翻译名 */
+				translate:
+,
+						// new:'新版',
+						feicheng:
+);
+		 * // 创建一个火杀
+		 * lib.cheat.gn(
+);
+		 * // 创建一个雷杀
+		 * lib.cheat.gn(
+, `不替换已有素材`);
+		span7.style.fontSize =
+);
+		// 初始化帮助按钮的链接
+		Reflect.set(node,
+plain
+	 * 检查给定的AccessAction是否被允许
+	 *
+plain
+	 * 指定给定的AccessAction是否被允许
+	 *
+plain
+	 * 检查当前是否是 Monitor 所属的运行域
+	 *
+样式
+	 * game.dynamicStyle.removeStyles(
+存储的映射
+	 * @returns {boolean[]} 添加的结果，为
+，则多加判断
+			else if (tempUrl.pathname ==
+>装备区</div>`);
+				dialogArgs.push([es,
+>判定区</div>`);
+				dialogArgs.push([js,
+);
+		 * // 创建一个红色杀
+		 * lib.cheat.gn(
+);
+		 * // 创建一个黑色杀
+		 * lib.cheat.gn(
+,
+	});
+
+	// 可拖动
+	parent.className =
+, `字体素材（${lib.config.asset_font_size ||
+都可能被JavaScript引擎重复调用
+				// 故在执行之前，为避免
+plain
+	 * 检查对象是否来自于当前的运行域的Promise
+	 *
+plain
+ * 根据传入对象的运行域获取对应的Function类型
+ *
+>手牌区</div>');
+					title.style.margin =
+>装备区</div>');
+					title.style.margin =
+>判定区</div>');
+					title.style.margin =
+, `音效素材（${lib.config.asset_audio_size ||
+, `图片素材（${lib.config.asset_image_size ||
+plain
+	 * 检查 Monitor 监听的命名参数是否符合要求
+	 *
+plain
+	 * 向当前域注入内建对象
+	 *
+	 * 如果使用在使用了
+plain
+	 * 丢弃当前的scope并从栈中弹出原本的scope
+	 *
+;
+	}
+
+	// 转成字符串
+	let sizeStr = size +
+plain
+	 * 将一个运行域的全局对象映射为另一个运行域的全局对象
+	 *
+为true(默认)时，任何全局变量的赋值行为将被转移到context里面
+	 *
+;
+
+// 用于标识Map、Set等对象在序列化中的类型
+// 使用了md5(
+，会保留文件的类型
+	 *
+	 * ---
+	 *
+	 * > 其实我不确定
+三种浏览器的信息，其余均归于其他范畴
+	 *
+	 * > 其他后续或许会增加，但
+plain
+	 * 封装被设定了代码片段函数的错误捕获调用
+	 *
+	 * 当
+plain
+ * 运行域对象
+ *
+ * 提供运行域的创建以及周期管理
+ *
+为false时，不存在的全局变量的赋值行为将被转移到context里面
+	 * 当
+plain
+	 * 构造一个错误报告对象
+	 * 以此来保存错误相关信息
+	 *
+); // 实例暴露
+const SandboxExposer2 = Symbol(
+) {
+					// 新增武将包，且不是“收藏”和“禁用”
+					if (![
+卡牌
+		 * @param { boolean } [me] 决定是自己还是对手使用
+] 路径名称(可放参数)
+ * @param { string } [branch =
+,
+		},
+	},
+	//偷袭
+	zf_touxi: {
+		rarity:
+plain
+ * 为每个运行域的全局对象提供封送映射
+ *
+ * 非暴露类
+ *
+);
+		// 先写死
+		switch (this.type) {
+			case
+,
+		},
+	},
+	//奋进
+	zf_fenjin: {
+		rarity:
+plain
+	 * 判断给定的参数列表和函数体字符串是否可以构造一个合法的函数
+	 *
+plain
+	 * 替代原本的eval函数，阻止访问原生的 window 对象
+	 *
+) {
+				//非开发者模式下，提示这些单词
+				list.addArray([
+,
+		},
+	},
+	//摸牌Ⅱ
+	zf_mopai2: {
+		rarity:
+>意见</div>');
+					var buttons = ui.create.div(
+);
+		//转换技转换时
+		let next2 = game.createEvent(
+;
+	// 获取小数点处的索引
+	let index = sizeStr.indexOf(
+js
+	 * await game.promises.alert('弹窗内容');
+	 *
+)的值作为键
+// 尽可能减少碰撞喵（应该不会碰撞的吧）
+const TYPE_KEY =
+的值为:
+	 *   - 在网页端和电脑端为空字符串
+	 *   - 在手机端为无名杀包的
+）
+	 *
+	 * 现在无名杀即将踏入http协议，也早已用上了ES Module，故活用
+,
+		},
+	},
+	//皮囊Ⅱ
+	zf_pinang2: {
+		rarity:
+, dummy); // 指定监听 dummy 对象
+ * monitor.require(
+plain
+	 * 判断在给定的AccessAction与指定的参数下是否允许访问
+	 *
+plain
+	 * 获取当前运行域封送到目标运行域的所有符合条件的 Monitor
+	 *
+;
+		//规则集中的“回合开始后⑦”，国战武将明置武将牌
+		event.trigger(
+) {
+		// 新客户端导入扩展逻辑
+		window.addEventListener(
+) {
+			//清空，避免和下面的image部分有冲突
+			node.innerHTML =
+; //不写的话，这里会变成undefined喵，所以默认是不能联机的哦
+					str +=
+, page);
+		// 在非帮助页面下默认隐藏
+		node.style.display =
+);
+
+		// 若传递的内容为对象，则特殊处理
+		if (typeof content ==
+);
+
+			// 初始化poptip名称
+			doc.querySelectorAll(
+;
+		//规则集中的“回合开始后②（1v1武将登场专用）”
+		event.trigger(
+;
+			shareExtLine.innerHTML = '已导出扩展。<span class=
+><li>场上角色<br>game.players<li>阵亡角色<br>game.dead' +
+,
+		},
+	},
+	//三连击
+	zf_sanlianji: {
+		rarity:
+,
+		},
+	},
+	//虎骨酒Ⅱ
+	zf_hugujiu2: {
+		rarity:
+,
+		},
+	},
+	//勇战Ⅱ
+	zf_yongzhan2: {
+		rarity:
+},
+		},
+	},
+	//援助Ⅱ
+	zf_yuanzhu2: {
+		rarity:
+函数
+
+					throw new domainWindow.ReferenceError(
+>锁定技</span>').
+		// 	replace(/限定技/g,'<span class=
+>限定技</span>').
+		// 	replace(/觉醒技/g,'<span class=
+>觉醒技</span>').
+		// 	replace(/主将技/g,'<span class=
+>主将技</span>').
+		// 	replace(/副将技/g,'<span class=
+>副将技</span>').
+		// 	replace(/阵法技/g,'<span class=
+>阵法技</span>').
+		// 	replace(/主公技/g,'<span class=
+;
+		//规则集中的“回合开始后④（卑弥呼〖纵傀〗的时机）”
+		event.trigger(
+).value;
+					//体力支持‘Infinity,∞,无限’表示无限
+					if ([
+lib.skill.${skills[i]}.ai.${tag}类型不符\nhasSkillTag：
+,
+					item: {
+						// auto:'自动',
+						short:
+,
+		},
+	},
+	//拂衣去火
+	zf_fuyiquhuo: {
+		rarity:
+,
+		},
+	},
+	//拂衣去桃
+	zf_fuyiqutao: {
+		rarity:
+,
+		},
+	},
+	//拂衣去决
+	zf_fuyiqujue: {
+		rarity:
+,
+		},
+	},
+	//拂衣去锁
+	zf_fuyiqusuo: {
+		rarity:
+方式，则调用该方法进行挂载
+			if (typeof contentObject.mount ==
+函数在它这一层调用栈中出现错误时
+	 * 此函数将自动记录此次错误信息并整理相关代码片段
+	 *
+plain
+ * 管理每个运行域对于其封送对象的 Monitor
+ *
+ * 非暴露类
+ *
+];
+	//数值代表各元素在名称中排列的先后顺序
+	nature = new Map([
+		[
+函数
+	 * 并通过Promise返回主机的给出的数据
+	 *
+	 * 具体调用例子:
+	 *
+} [rvt]
+	 * @returns { boolean | number } 返回值：rvt:
+] 仓库拥有者
+ * @param { string } [options.repository =
+,
+		},
+	},
+	//拂衣去闪
+	zf_fuyiqushan: {
+		rarity:
+,
+		},
+	},
+	//拂衣去拆
+	zf_fuyiquchai: {
+		rarity:
+,
+		},
+	},
+	//拂衣去顺
+	zf_fuyiqushun: {
+		rarity:
+,
+		},
+	},
+	//铁布衫Ⅲ
+	zf_tiebushan3: {
+		rarity:
+plain
+	//  * 替代原本的eval函数，阻止访问原生的 window 对象
+	//  *
+plain
+ * 携带简单上下文的eval函数，并返回scope
+ * eval代码的返回值将覆盖
+) {
+				contentObject.mount(page);
+			}
+			// 如果对象拥有
+plain
+	 * 在客机发出请求，要求主机响应并返回特定的数据
+	 * 此函数会要求主机调用指定的
+, factor: 4, ref: lib.rank.bp }, // 中位数等级
+			{ key:
+>来源：' + get.translation(lib.card[name].derivation) +
+] GitHub上拥有存储库的用户名或组织名称。
+ * @param {string} [repo =
+,
+		},
+	},
+	//隔山打牛
+	zf_geshandaniu: {
+		rarity:
+方式，则视为vue组件
+			else if (typeof contentObject.data ==
+${extname} ${lib.extensionPack[extname].version} 更新内容
+);
+			},
+		},
+	},
+	//博闻Ⅰ
+	zf_bowen: {
+		rarity:
+;
+			},
+		},
+	},
+	//酣战
+	zf_hanzhan: {
+		rarity:
+,
+		},
+	},
+	//破釜沉舟
+	zf_pofuchenzhou: {
+		rarity:
+)) {
+			//卡牌长按介绍
+			if (ui.arena.classList.contains(
+;
+					// 创建皮肤列表
+					let skinsList = ui.create.div(
+});
+
+//取消订阅，method是之前注册时的回调函数
+announce.unsubscribe(
+喵，会导致倒序哦喵
+							}
+						} else {
+							position =
+,
+		},
+	},
+	//强取豪夺
+	zf_qiangquhaoduo: {
+		rarity:
+},
+		},
+	},
+	//稳定体质
+	zf_wendingtizhi: {
+		rarity:
+plain
+	 * 指定 Monitor 可以监听的运行域
+	 * 默认监听封送到的所有运行域
+	 *
+plain
+	 * 指定 Monitor 不可监听的运行域
+	 * 默认监听封送到的所有运行域
+	 *
+);
+			} else {
+				game.log(player, '被贴上了<span class=
+)) {
+					// 扩展卡牌包开启逻辑
+					if (node.mode.startsWith(
+)) {
+					// 扩展武将包开启逻辑
+					if (node.mode.startsWith(
+>来源：' + get.translation(lib.card[name].derivationpack +
+);
+			},
+		},
+	},
+	//妙技Ⅱ
+	zf_miaoji2: {
+		rarity:
+);
+			},
+		},
+	},
+	//血战Ⅰ
+	zf_xuezhan: {
+		rarity:
+plain
+ * 携带简单上下文的eval函数
+ *
+ * 自动根据沙盒的启用状态使用不同的实现
+ *
+plain
+	 * 在客机发出同步信号，要求主机通过广播或单播更新数据喵
+	 * 此函数会要求主机调用指定的
+plain
+	 * 集成的编译函数
+	 * 通过责任链模式将content分发给所有注册的编译器喵
+	 *
+,
+					item: {
+						//default:'旧版',
+						newlayout:
+,
+			num: 2,
+		},
+	},
+	//赌术
+	zf_dushu: {
+		rarity:
+;
+			},
+		},
+	},
+	//弱反馈
+	zf_ruofankui: {
+		rarity:
+存的必然是对象
+ *
+ * @async
+ * @param {string} name - 要读取数据的
+存的必然是对象
+ *
+ * @async
+ * @param {string} name - 要保存数据的
+);
+				} else {
+					game.log(player, '被贴上了<span class=
+&nbsp;&nbsp;${sex == "none" ? "无" : get.translation(sex)}
+) {
+				// 安卓13或以上
+				if (checkVersion(device.version,
++ this.maxHp;
+				} else {
+					str += '人数：<span class=
+,
+			num: 3,
+		},
+	},
+	//搏命
+	zf_boming: {
+		rarity:
+,
+			num: 2,
+		},
+	},
+	//体魄Ⅲ
+	zf_tipo3: {
+		rarity:
+plain
+	 * 创建运行域
+	 *
+	 * 一般不直接使用，
+	 * 请考虑使用直接创建沙盒
+	 *
+, `${w}px`);
+
+				//检查tip的高度，使其不覆盖装备
+				game.callHook(
+,//全选
+			},
+		});
+		lib.setScroll(editor.querySelector(
+><button>确定</button>', importExtension);
+			ui.create.div(
+,
+			num: 2,
+		},
+	},
+	//博闻Ⅲ
+	zf_bowen3: {
+		rarity:
+) >= 7;
+			},
+		},
+	},
+	//淬血
+	zf_cuixue: {
+		rarity:
+,
+			num: 2,
+		},
+	},
+	//结盟
+	zf_jiemeng: {
+		rarity:
+,
+			num: 2,
+		},
+	},
+	//雷鸣
+	zf_leiming: {
+		rarity:
+,
+			num: 3,
+		},
+	},
+	//眼线
+	zf_yanxian: {
+		rarity:
+, true);
+			},
+		},
+	},
+	//药理
+	zf_yaoli: {
+		rarity:
+plain
+	 * 创建一个新的沙盒
+	 * 
+	 * 并指定沙盒使用的持久化ID
+	 * 当服务器需要使用
+plain
+	 * 基于当前的scope克隆一个新的scope
+	 * 然后将原本的scope压入栈中
+	 *
+>更改皮肤</div>');
+						}
+						var buttons = ui.create.div(
+, result[1]);
+
+		/**
+		 * 通用解析版本号方法
+		 *
+		 * @param {
+)] ??= {};
+
+	// 复制共有模式设置
+	for (const name in config.get(
+${get.cnNumber(top.length)}上${get.cnNumber(bottom.length)}下
+| false | string;
+	 * 因对应Mod技能导致部分牌未被弃置时，是否为Mod技能执行对应函数。默认
+, 2);
+			},
+		},
+	},
+	//拔刀术
+	zf_badaoshu: {
+		rarity:
+},
+			num: 1,
+		},
+	},
+	//博闻Ⅱ
+	zf_bowen2: {
+		rarity:
+,
+			num: 2,
+		},
+	},
+	//及时雨
+	zf_jishiyu: {
+		rarity:
+<div class="text center" style="padding-bottom:3px">无</div>
+`时仅用于`indexedDB`
+ * @param {any} value - 需要保存的数据；当`type`为`
+plain
+	 * 设置错误报告器
+	 *
+	 * 在报告错误时可以从此处获取错误报告器来直接报告错误
+	 *
+plain
+ * 简单的、不带上下文的模拟eval函数
+ *
+ * 自动根据沙盒的启用状态使用不同的实现
+ *
+: 全部，true
+	 */
+	hasShan(respond) {
+		if (this.countCards(
+>该武将包不可被隐藏</span>', page);
+				} else if (!mode.startsWith(
+,
+			num: 2,
+		},
+	},
+	//二连击
+	zf_erlianji: {
+		rarity:
+,
+			modNum: 2,
+		},
+	},
+	//护甲Ⅰ
+	zf_hujia: {
+		rarity:
+,
+			num: 2,
+		},
+	},
+	//血战Ⅲ
+	zf_xuezhan3: {
+		rarity:
+,
+			num: 2,
+		},
+	},
+	//援助Ⅲ
+	zf_yuanzhu3: {
+		rarity:
+,
+			num: 3,
+		},
+	},
+	//远击技
+	zf_yuanjiji: {
+		rarity:
+>详细信息</span>';
+									promptnode.firstChild.querySelector(
+机制，实现消息推送和接收的解耦，
+	 * 从而使消息接收方无需依赖发布方，发布方也无需考虑接收方
+	 *
+	 * >
+,
+			num: 3,
+		},
+	},
+	//铁布衫
+	zf_tiebushan: {
+		rarity:
+<ul><li>列表1-条目1<li>列表1-条目2</ul><ol><li>列表2-条目1<li>列表2-条目2</ul>
+);
+			},
+		},
+	},
+	//策定天下
+	zf_cedingtianxia: {
+		rarity:
+,
+			modNum: 2,
+		},
+	},
+	//皮囊Ⅲ
+	zf_pinang3: {
+		rarity:
+开头，基本能判定为URL，无需重复判断）
+		if (URL.canParse(ip) && (ip.startsWith(
+);
+			}
+		}
+
+		// 根据157的要求移除掉本体的五行扩展哦喵
+		if (game.hasExtension(
+) {
+				exportExtLine.innerHTML = '已保存。退出游戏并重新打开后生效<span class=
+函数但不会等待结果返回喵
+	 *
+	 * 具体调用请参考@see requestSkillData 函数的文档喵
+	 *
+&nbsp;&nbsp;${infoSex == "none" ? "无" : lib.translate[infoSex]}
+,
+				/** 存牌的区域名，_status.renku即是仁库这一区域 */
+				areaStatusName:
+,
+			num: 3,
+		},
+	},
+	//持久战Ⅰ
+	zf_chijiuzhan: {
+		rarity:
+,
+			num: 2,
+		},
+	},
+	//木牛流马
+	zf_muniuliuma: {
+		rarity:
+],
+		//所有基本牌或普通锦囊牌都可以响应
+		all: [],
+		//也可以放函数
+		khquanjiu: [
+) {ver2 = String(ver2);}
+
+	// 移除 'v' 开头
+	if (ver1.startsWith(
+) {
+			// 控制显示的区域
+			const intro2Node = uiintro.querySelector(
+插件实现，有较为严格的限制
+	 *
+	 * 故之前的路径API基本如下:
+	 * - 网页端完全不考虑
+	 * - 使用
+;
+export class Character {
+	/**
+	 * 武将牌的性别
+	 * @type { Sex |
+,
+			num: 2,
+		},
+	},
+	//趁其不备
+	zf_chenqibubei: {
+		rarity:
+) < 6;
+			},
+		},
+	},
+	//绝对无懈
+	zf_jueduiwuxie: {
+		rarity:
+;
+		//规则集中的“回合开始后⑨”，进行当先，化身等操作
+		//没有⑧ 因为⑧用不到
+		event.trigger(
+,
+			modNum: 2,
+		},
+	},
+	//二生三
+	zf_ershengsan: {
+		rarity:
+,
+			num: 2,
+		},
+	},
+	//后发先至
+	zf_houfaxianzhi: {
+		rarity:
+);
+				},
+			},
+		},
+	},
+	//荆棘甲
+	zf_jingjijia: {
+		rarity:
+);
+			},
+		},
+	},
+	//妙手空空
+	zf_miaoshoukongkong: {
+		rarity:
+;
+		li2.innerHTML = "素材版本：" + (lib.config.asset_version || "无") +
+;
+						})
+				);
+			}
+		}
+		//手动触发时机
+		await event.trigger(
+>引文</span><br>';
+							const appendDiv = document.createElement(
+js
+		 * // 获得3张杀和1张闪
+		 * lib.cheat.g('sha', 3, 'shan', 1)
+		 *
+);
+			},
+		},
+	},
+	//喜从天降Ⅱ
+	zf_xicongtianjiang2: {
+		rarity:
+,
+			num: 2,
+		},
+	},
+	//胆量剥夺
+	zf_danliangboduo: {
+		rarity:
+,
+			select: [1, 2],
+		},
+	},
+	//醉拳
+	zf_zuiquan: {
+		rarity:
+plain
+	 * 将特定的运行域添加到当前对象的封送白名单
+	 *
+	 * 请注意，封送白名单与黑名单不能同时指定
+	 *
+plain
+	 * 将特定的运行域添加到当前对象的封送黑名单
+	 *
+	 * 请注意，封送白名单与黑名单不能同时指定
+	 *
+plain
+	 * 解析映射路径为索引
+	 *
+	 * 如: /a/b/c => [window.a.b, "c"]
+	 *
+) {
+			next.cards = result.cards.slice(0);
+		}
+		//语法糖部分
+		if (
+) {
+				// 我思索了一下，如果这玩意能造成无限递归
+				// 那么我只能说，你赢了
+				game.getDB(
+, true);
+			},
+		},
+	},
+	//关刀之脊
+	zf_guandaozhiji: {
+		rarity:
+) < 4;
+			},
+		},
+	},
+	//精于谋略Ⅱ
+	zf_jingyumoulve2: {
+		rarity:
+,
+			modNum: 5,
+		},
+	},
+	//偏转甲
+	zf_pianzhuanjia: {
+		rarity:
+, true);
+			},
+		},
+	},
+	//巧取豪夺
+	zf_qiaoquhaoduo: {
+		rarity:
+,
+			num: 2,
+		},
+	},
+	//神龙摆尾
+	zf_shenlongbaiwei: {
+		rarity:
+,
+			num: 2,
+		},
+	},
+	//愈战愈勇Ⅲ
+	zf_yuzhanyuyong3: {
+		rarity:
+,
+			num: 2,
+		},
+	},
+	//战斗学习Ⅱ
+	zf_zhandouxuexi2: {
+		rarity:
+语法
+		const prototype = new this.#domainObject();
+		const prefix =
+,toggle_example:true}\n导出时本段代码中的换行、缩进以及注释将被清除\n*/');
+				createCode(
+);
+						uiIntro.addText(player ? `来源：${get.translation(player)}` :
+);
+			if (result.length > 1) {
+				result = result.replace(/零+$/g,
+, NaN, NaN, NaN];
+		}
+
+		// 非Safari情况可直接返回结果
+		if (result[1] !==
+,
+			select: [1, 2],
+		},
+	},
+	//剔甲术
+	zf_tijiashu: {
+		rarity:
+},
+			num: 4,
+		},
+	},
+	//天降卡牌
+	zf_tianjiangkapai: {
+		rarity:
+plain
+ * AccessAction枚举
+ * 提供给Rule类作为权限ID
+ * 对应 Proxy 的12种拦截器
+ *
+plain
+	 * 创建一个被代理的 Window 对象
+	 *
+	 * （为什么一定要指名道姓选window的东西喵）
+	 *
+,
+				/** #player.gain/.addToExpansion中的参数名，表示来源区域 */
+				fromName:
+js
+		 * // 给所有玩家立刻添加一张杀和一张闪
+		 * lib.cheat.gg('sha', 'shan');
+		 *
+,
+			num: 3,
+		},
+	},
+	//天降锦囊
+	zf_tianjiangjinnang: {
+		rarity:
+, true);
+			},
+		},
+	},
+	//稳定进攻
+	zf_wendingjingong: {
+		rarity:
+应用平台: Electron<br/>
+				Electron版本: ${process.versions.electron}<br/>
+;
+				};
+			} else {
+				exportExtLine.innerHTML = '重启后生效。<span class=
++ max_combo + "  精准度：" + acc + "%</div>";
+				game.me.$fullscreenpop(
+},
+			num: 3,
+		},
+	},
+	//天降横财
+	zf_tianjianghengcai: {
+		rarity:
+读取失败时将对应键的值初始化为空对象
+ * @param {any} [reinitIndexedDB=undefined] - 是否在用
+plain
+	 * 解析映射路径
+	 *
+	 * 如: /a/b/c => ["/a/b/c", window.a.b.c]
+	 *
+);
+					},
+				},
+			},
+		},
+	},
+	//烈变
+	zf_liebian: {
+		rarity:
+>应变：${yingbianEffects.map(value => lib.yingbian.prompt.get(value)).join(
+, data.message);
+});
+
+//发布事件，发布事件时，会执行所有订阅了这个事件的回调
+announce.publish(
+属性，任何 Primitive 值都不允许有property";
+			} else if (newMessage.includes("Can
+},
+			num: 4,
+		},
+	},
+	//天降装备
+	zf_tianjiangzhuangbei: {
+		rarity:
+, name, start.firstChild, clickMode);
+		// 设置帮助按钮的类型
+		Reflect.set(node,
+>点击或拖动两张牌以交换位置；点击一张牌并点击其他区域或拖动到其他区域以移动卡牌</div>');
+				tex.classList.add(
+);
+		// 创建帮助按钮
+		// TODO: 对是否应该对按钮进行其他框架的挂载处理
+		var node = ui.create.div(
+][] } */
+			filterFuns: [],
+			// 充分条件
+			/** @type { Required<Skill>[
+,
+				/** #player.lose和game.cardsGotoSpecial中的参数名，用于指向区域 */
+				toName:
+},
+		cardFilter: card => true, //用法其实类似getCards那些的过滤器
+		num: 1,
+		pos:
+) < player.getHp();
+			},
+		},
+	},
+	//三板斧
+	zf_sanbanfu: {
+		rarity:
+plain
+	 * 设置当前的权限控制器
+	 *
+	 * 权限控制器形参是拦截器的对应参数
+	 * 返回值则控制本次访问是否允许
+	 *
+) {
+		// 在http环境下修改__dirname和require的逻辑
+		if (window.__dirname.endsWith(
+;
+	if (limit < 1 * 1024) {
+		// 小于1KB，则转化成B
+		size = limit.toFixed(2) +
+plain
+	 * 注册一个编译器实例
+	 *
+	 * 如果后面开始全面迁移到 TypeScript，那么请使用依赖注入代替这个方法喵
+	 *
+,
+					item: {
+						// wood:'木纹',
+						// music:'音乐',
+						official:
+).indexOf(event) == 0;
+			},
+		},
+	},
+	//淬血Ⅱ
+	zf_cuixue2: {
+		rarity:
+, ui.click.button);
+				// 将容器加入到dialog.buttons
+				itemContainer.closest(
+，无则均加入
+	 * @param { Card[] | Card | boolean } [ignore] 此牌/这些牌不纳入考量。若 type 为
+><button>确定</button>', importExtension);
+			var promptnode = ui.create.div(
+) {
+			/** @type {object} */
+			const contentObject = content;
+
+			// 如果对象拥有
+;
+		event.num++;
+		event.goto(1);
+	},
+	//Recast
+	//重铸
+	recast: () => {
+, //默认，即语音放置在audio/effect下，以damage_fire.mp3 damage_fire2.mp3命名。
+			thunder:
+, //默认，即语音放置在audio/card/male与audio/card/female下，命名为sha_fire.mp3
+			thunder:
+;
+		}
+		//------添加记牌器 by Curpond-------
+		ui.deckMonitor = ui.create.system(
+); // 静态暴露
+
+// 暴露方法Signal，类间通信信号
+const SandboxSignal_InitDomain = Symbol(
+plain
+ * 初始化需要额外序列化的函数
+ *
+ * 适配扩展，当在skillcontent里面调用皮切的playEffect时会报错
+ *
+;
+			}
+			// 否则...鉴于原先存在地址为域名/localhost的情况，鉴于原先的联机地址不兼容pathname，如果pathname为

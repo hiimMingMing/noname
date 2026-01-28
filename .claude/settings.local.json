@@ -1,29 +1,14 @@
 {
   "permissions": {
     "allow": [
-      "Bash(git stash:*)",
-      "Bash(pnpm run dev)",
-      "Bash(for file in noname/game/index.js noname/get/index.js noname/library/element/client.js noname/library/element/gameEvent.js noname/library/element/player.js noname/library/init/index.js noname/ui/create/index.js noname/ui/create/menu/pages/exetensionMenu.js noname/ui/create/menu/pages/otherMenu.js)",
-      "Bash(do sed -i 's/@\\/util\\/sandbox\\.js/@\\/util\\/sandbox.ts/g' \"$file\")",
-      "Bash(done)",
-      "Bash(tasklist:*)",
-      "Bash(findstr:*)",
-      "Bash(node scripts/findMissingTranslations.js:*)",
-      "Bash(node scripts/findMissingTranslations.cjs:*)",
-      "Bash(node scripts/extractLibTranslateKeys.cjs:*)",
-      "Bash(node count_keys.cjs:*)",
-      "Bash(node scripts/findAllChineseStrings.cjs:*)",
+      "Bash(grep:*)",
+      "Bash(python -X utf8 translate_advanced.py:*)",
+      "Bash(node scripts/validateTranslations.cjs:*)",
       "Bash(node scripts/compareMissingTranslations.cjs:*)",
-      "Bash(node scripts/extractUIStrings.cjs:*)",
-      "Bash(innerHTML_top200.txt)",
+      "Bash(python -X utf8 ultra_translate.py:*)",
       "Bash(node:*)",
-      "Bash(python extract_chinese.py:*)",
-      "Bash(python filter_and_categorize.py:*)",
-      "Bash(python translate_batch.py:*)",
-      "Bash(python auto_translate_patterns.py:*)",
-      "Bash(python merge_all_translations.py:*)",
-      "Bash(python:*)",
-      "Bash(python -c:*)"
+      "Bash(python -X utf8:*)",
+      "Bash(remaining_names_batch1.txt)"
     ],
     "deny": [],
     "ask": []

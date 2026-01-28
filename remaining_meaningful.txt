@@ -1,0 +1,940 @@
+的样式
+	 * game.dynamicStyle.add(
+元素的样式
+	 * game.dynamicStyle.remove(
+开头，基本能判定为URL，无需重复判断）
+		if (URL.canParse(ip) && (ip.startsWith(
+(被伪装)
+>预亮技能</div></div></div>');
+							var underlinenode = uiintro.content.lastChild.querySelector(
+>自动发动</div></div></div>');
+							var underlinenode = uiintro.content.lastChild.querySelector(
+>自动发动</div></div></div>');
+						var underlinenode = uiintro.content.lastChild.querySelector(
+>点击发动</div></div></div>').querySelector(
+>更改皮肤</div>');
+						}
+						var buttons = ui.create.div(
+>此牌标签：${gaintag}</div>`);
+						}
+					}
+				}
+				uiintro.add(ui.create.div(
+)时缺少target参数
+>演奏评级：<span data-nature=
+>点击或拖动两张牌以交换位置；点击一张牌并点击其他区域或拖动到其他区域以移动卡牌</div>');
+				tex.classList.add(
+若对方选择“开城诱敌”，你胜
+若对方选择“奇袭粮道”，你胜
+若对方选择“全军出击”，你胜
+若对方选择“分兵围城”，你胜
+展示了
+亮出了
+被移动给了
+从牌库中获得了
+视为受到了
+);
+			} else {
+				game.log(player, '被贴上了<span class=
+被贴上了
+);
+				} else {
+					game.log(player, '被贴上了<span class=
+发起了“协力”，合作类型是
+>等待中</span>　';
+					if (this.version != lib.versionOL) {
+						this.classList.add(
+移去了
+”为无效技能ID！
+暂时失效了
+(默认)是否可能有杀，
+，无则均加入
+	 * @param { Card[] | Card | boolean } [ignore] 此牌/这些牌不纳入考量。若 type 为
+且此项不为false，则使用 this.getCards(
+(默认)是否可能有闪，
+],
+				十一庚: [
+],
+				十二齐: [
+],
+				十三支: [
+],
+				十四姑: [
+抵消所需要的
+)}】的效果。`,
+			],
+			[
+离开游戏前弹出确认对话框
+按住卡牌后可将卡牌拖至目标
+游戏开始前进入模式选择画面
+设置不同游戏操作间的时间间隔
+设置正面朝上的卡牌的样式
+设置背面朝上的卡牌的样式
+设置卡牌、技能的指示特效
+为游戏主题打开玻璃效果（手机暂不支持）
+选项条被按下时将有按下效果
+卡牌动画信息(Beta)
+角色被翻面时显示“翻面”
+设置单击身份按钮时的操作
+点击自由选将时默认显示的条目
+在选项-武将中显示收藏一栏
+在选项-武将中显示禁将一栏
+所有卡牌将使用文字作为背景
+明忠模式与谋攻模式详见帮助
+选将前将随机禁用一个势力
+最后行动的角色起始手牌数+1
+最后行动的角色起始手牌+1
+代码语法有错误，请仔细检查（
+鼠标移至屏幕边缘时自动滚屏
+<li>玩家的上/下家（含阵亡）<br>game.me.previousSeat/<br>nextSeat
+<li>牌堆<br>ui.cardPile<li>弃牌堆<br>ui.discardPile</ul>
+)<li>装备牌<br>player.getCards(
+)<li>判定牌<br>player.getCards(
+传递错误值到数值计算方法
+引用了一个未定义的变量：
+赋值运算符或比较运算符不匹配
+for...of 循环的头部包含有初始化表达式
+for...in 循环的头部包含有初始化表达式
+不合法的标识符或错误的语法
+'属性，任何 Primitive 值都不允许有property
+instanceof 操作符 希望右边的操作数为一个构造对象，即一个有 prototype 属性且可以调用的对象
+lib.cheat.u: 以普通obj形式传入的类卡牌形式已经废弃
+双方累计造成至少4点伤害
+见证奇迹的时刻到了
+能不能快一点啊，兵贵神速啊
+<br><li>协力角色：
+<br><li>协力原因：
+<br><li>协力进度：
+造成的伤害，改为令其减少
+)) {
+			throw new TypeError(`设置了branch参数后，不应在path参数内拼接ref`);
+		}
+		searchParams.append(
+编辑牌堆 <div>&gt;</div>
+>该武将包不可被隐藏</span>', page);
+				} else if (!mode.startsWith(
+真的要隐藏“
+) {
+				exportExtLine.innerHTML = '已保存。退出游戏并重新打开后生效<span class=
+;
+				};
+			} else {
+				exportExtLine.innerHTML = '重启后生效。<span class=
+>立即重启</span><span class=
+;
+			shareExtLine.innerHTML = '已导出扩展。<span class=
+>分享扩展</span><span class=
+)}阵亡配音`);
+												resolve();
+											}
+										);
+									} else {
+										game.getDB(
+)}阵亡配音`);
+											resolve();
+										}
+									);
+								} else {
+									game.getDB(
+编辑卡牌 <div>&gt;</div>
+创建卡牌 <div>&gt;</div>
+,toggle_example:true}\n导出时本段代码中的换行、缩进以及注释将被清除\n*/');
+				createCode(
+导入扩展 <div>&gt;</div>
+<span>正在下载</span><div>正在下载</div>
+双将禁配 <div>&gt;</div>
+导入素材包 <div>&gt;</div>
+>重新启动</span><span class=
+>详细信息</span>';
+									promptnode.firstChild.querySelector(
+点击切换WebView实现
+，则多加判断
+			else if (tempUrl.pathname ==
+|Node} position 新的父容器中元素去的位置
+	 * @param {number} [duration=500] 动画完成的时间 ms
+	 * @param {
+plain
+	 * 进入沙盒运行模式
+	 *
+plain
+	 * 在客机发出同步信号，要求主机通过广播或单播更新数据喵
+	 * 此函数会要求主机调用指定的
+函数但不会等待结果返回喵
+	 *
+	 * 具体调用请参考@see requestSkillData 函数的文档喵
+	 *
+plain
+	 * 在客机发出请求，要求主机响应并返回特定的数据
+	 * 此函数会要求主机调用指定的
+函数
+	 * 并通过Promise返回主机的给出的数据
+	 *
+	 * 具体调用例子:
+	 *
+: 路径不存在或无法访问
+	 *  -
+: 路径的内容不是文件
+	 *  -
+: 路径的内容不是目录
+	 *  -
+${get.cnNumber(num)}轮后${info.roundtext || "技能重置"}
+${extname} ${lib.extensionPack[extname].version} 更新内容
+js
+	 * await game.promises.alert('弹窗内容');
+	 *
+>专属装备</div>').style.marginTop =
+>特殊装备</div>').style.marginTop =
+>攻击范围：' + (-dist.attackFrom + 1) +
+} type 分组类型 目前仅支持
+<div class="text center">攻击范围：
+<div class="text center">攻击范围：1</div>
+<div class="text center">—— 对应实体牌 ——</div>
+plain
+	 * 测试一段代码是否为函数参数列表
+	 *
+plain
+	 * 测试一段代码是否为函数体
+	 *
+plain
+	 * 清洗函数体代码
+	 *
+get.event("${key}")写法即将被废弃，请更改为get.event().${key}
+外，没任何可能
+	 * - 电脑端(electron): 和
+保持一致
+	 * - 手机端(cordova): 需要使用
+插件实现，有较为严格的限制
+	 *
+	 * 故之前的路径API基本如下:
+	 * - 网页端完全不考虑
+	 * - 使用
+的值为:
+	 *   - 在网页端和电脑端为空字符串
+	 *   - 在手机端为无名杀包的
+，
+	 * 默认为
+，会保留文件的类型
+	 *
+	 * ---
+	 *
+	 * > 其实我不确定
+三种浏览器的信息，其余均归于其他范畴
+	 *
+	 * > 其他后续或许会增加，但
+],
+	夏侯令女: [
+],
+	马日磾: [
+],
+	乐无异: [
+],
+	洛欧塞布: [
+],
+	塞纳留斯: [
+],
+	地藏王: [
+],
+	查莉娅: [
+],
+	单小小: [
+],
+	欧阳少恭: [
+],
+	卡尔维特: [
+],
+	卡西尔: [
+],
+	卡扎库斯: [
+],
+	卡德加: [
+],
+	法兰茜斯卡: [
+],
+	卡利莫斯: [
+],
+	亚煞极: [
+],
+	库特莉亚芙卡: [
+文件读写函数初始化失败:
+扩展《${name}》加载失败，是否关闭此扩展？错误信息: \n${e instanceof Error ? e.stack : String(e)}
+) {
+					errorCallback(new Error(`${target}文件已存在`));
+				} else if (typeof successCallback ==
+${target}不存在
+${target}不是文件夹
+)) {
+				console.warn(`die_audio参数已废弃，请使用多个die参数。`);
+				dieAudios.addArray(item.slice(10).split(
+喵，会导致倒序哦喵
+							}
+						} else {
+							position =
+>手牌区</div>');
+					title.style.margin =
+>装备区</div>');
+					title.style.margin =
+>判定区</div>');
+					title.style.margin =
+>装备区</div>`);
+				dialogArgs.push([es,
+>判定区</div>`);
+				dialogArgs.push([js,
++ max_combo + "  精准度：" + acc + "%</div>";
+				game.me.$fullscreenpop(
+, "变更为了",
+, "变更为了双将",
+);
+			} else if (rawPairs.length == 2 && newPairs.length == 1) {
+				game.log(player, "将双将",
+, "变更为了单将",
+将${get.cnNumber(top.length)}张牌置于牌堆顶
+content编译器没有明确的类型
+相同的content编译器类型不能重复注册
+plain
+	 * 注册一个编译器实例
+	 *
+	 * 如果后面开始全面迁移到 TypeScript，那么请使用依赖注入代替这个方法喵
+	 *
+plain
+	 * 对无法直接编译的数据做处理
+	 *
+plain
+	 * 集成的编译函数
+	 * 通过责任链模式将content分发给所有注册的编译器喵
+	 *
+plain
+	 * 对于事件执行前的一些准备工作
+	 *
+plain
+	 * 判断事件能否继续执行
+	 *
+plain
+	 * 对于事件执行后的一些收尾工作
+	 *
+plain
+	 * 当前编译器的事件content类型
+	 *
+plain
+	 * 判断事件content是否被当前编译器支持
+	 *
+StepCompiler只能接受函数
+*
+	 * @example
+	 * 在技能中调试技能content相关的信息
+	 *
+* 在技能中调试触发此技能事件的相关的信息
+	 *
+} [type] 此杀用途：
+，无则均加入
+	 * @param { Card[] | Card | null } [ignore] 此牌/这些牌不纳入考量
+	 * @param {
+} [type] 此闪用途：
+<span class="firetext">游戏中</span>
+<span class="greentext">等待中</span>
+| false | string;
+	 * 因对应Mod技能导致部分牌未被弃置时，是否为Mod技能执行对应函数。默认
+无效的函数体: ${body}
+警告：Player[${this.name}].changeCharacter填写了一个错误的参数:
+警告：Player[${this.name}]试图将武将牌变更为不存在的武将:
+警告：Player[${this.name}].addAdditionalSkills的参数错误，应当为技能字符串或数组:
+警告：Player[${this.name}].addAdditionalSkill的参数错误，应当为技能字符串或数组:
+, true);
+
+			if (log !== false && this.hasSkill(skill)) {
+				game.log(this, "的技能",
+lib.skill.${skills[i]}.ai.${tag}类型不符\nhasSkillTag：
+>点击查看GPLv3协议</a><br><li>其他所有的所谓“无名杀”社群（包括但不限于绝大多数“官方”QQ群、QQ频道等）均为玩家自发组织，与无名杀官方无关！',
+		游戏操作:
+><li>场上角色<br>game.players<li>阵亡角色<br>game.dead' +
+语言已更改为简体中文\n请重新启动游戏以应用更改
+开启后可通过按压执行操作
+属性，任何 Primitive 值都不允许有property";
+			} else if (newMessage.includes("Can
+卡牌
+		 * @param { boolean } [me] 决定是自己还是对手使用
+机制，实现消息推送和接收的解耦，
+	 * 从而使消息接收方无需依赖发布方，发布方也无需考虑接收方
+	 *
+	 * >
+使用了${get.translation(card)}，是否弃置一张${get.translation(type)}为其助战？
+使用时视为两张【${get.translation("shan")}】的效果。
+${lib.mode[get.mode()]?.name ?? "本"}模式禁用武将已清除！
+${lib.mode[get.mode()]?.name ?? "本"}模式最近选将记录已清除！
+, " 进入房间观战");
+						game.me.chat(
+plain
+			 * 当客机向主机发送投降请求时的回调
+			 *
+*
+	 * @param {string} path - 文件路径
+	 * @param {string | string[]} [file] - 文件名或文件名组，忽略则直接读取
+请于lib.skill/lib.card中显式注册技能/卡牌。
+(已完成)
+(未完成)
+, `鏖战：请选择${get.translation(trigger.cards[0])}视为${trigger.name ==
+当前怒气值：${typeof stratagemFuryMax == "number" ?
+【${get.translation(cardName)}】：${cost.get(cardName)}点怒气。${prompt()}
+当你需要使用位于“强化表”内的非虚拟卡牌时，你可以消耗对应数量的怒气将其强化并使用。${document.createElement("hr").outerHTML}${span.outerHTML}
+${get.translation(player)}展示了${get.translation(target)}的身份牌<br>
+] 仓库拥有者
+ * @param { string } [options.repository =
+] 路径名称(可放参数)
+ * @param { string } [branch =
+] 仓库分支名称
+ * @param { Object } options
+ * @param { string } [options.username =
+] GitHub上拥有存储库的用户名或组织名称。
+ * @param {string} [repo =
+手牌上限-2，出杀次数+1
+敌方摸牌数-1，最低为2
+【无中生有】额外摸1张牌
+每轮你受到的首次伤害-1
+每轮你前两次受到的伤害-1
+每轮开始时，你获得1点护甲
+每轮开始时，你获得2点护甲
+摸牌阶段，你的摸牌数+1
+摸牌阶段，你的摸牌数+2
+【顺手牵羊】时目标手牌可见
+受到1点伤害后，摸一张牌
+你的每第三张【杀】伤害+1
+你的每第三张【杀】伤害+2
+回复1点体力后，摸一张牌
+【过河拆桥】时目标手牌可见
+回复体力时，额外回复1点
+回复体力时，额外回复2点
+从第4轮开始，你的出杀+1
+从第7轮开始，你的出杀+1
+从第3轮开始，你的出杀+1
+这里是用来浏览战法的，这些不是卡牌！
+${get.translation(player)}因<span class = bluetext>虚焰</span>修改过的【火攻】展示的牌
+${get.translation(player)}【火攻】展示的牌
+)}的身份牌
+<div>还未编写</div>
+已导出扩展。<span class="hrefnode">分享扩展</span><span class="closenode">×</span>
+, `不替换已有素材`);
+		span7.style.fontSize =
+, `字体素材（${lib.config.asset_font_size ||
+, `音效素材（${lib.config.asset_audio_size ||
+, `图片素材（${lib.config.asset_image_size ||
+) {
+				agentText += dedent`应用平台: 苹果<br/>`;
+			} else if (typeof window.require ==
+方式，则调用该方法进行挂载
+			if (typeof contentObject.mount ==
+方式，则视为vue组件
+			else if (typeof contentObject.data ==
+;
+		li2.innerHTML = "素材版本：" + (lib.config.asset_version || "无") +
+图片素材（完整，203MB）
+本地版本${lib.version}高于或等于github版本${description.name}，是否强制下载？
+字体素材（${lib.config.asset_font_size || "23.4MB"}）
+音效素材（${lib.config.asset_audio_size || "350MB"}）
+图片素材（${lib.config.asset_image_size || "363MB"}）
+应用平台: 安卓<br/>
+应用平台: 苹果<br/>
+应用平台: Electron<br/>
+				Electron版本: ${process.versions.electron}<br/>
+config初始化或更新
+lib.mode[${mode}]初始化或更新
+${roundNumber}轮 剩余牌: ${cardPileNumber}
+`时仅用于`indexedDB`
+ * @param {any} value - 需要保存的数据；当`type`为`
+存的必然是对象
+ *
+ * @async
+ * @param {string} name - 要读取数据的
+所使用的
+* @param {boolean} [reinitLocalStorage=true] - 是否在用
+读取失败时将对应键的值初始化为空对象
+ * @param {any} [reinitIndexedDB=undefined] - 是否在用
+存的必然是对象
+ *
+ * @async
+ * @param {string} name - 要保存数据的
+* @param {any} value - 需要保存的数据；当
+\n座位号: ${distance + 1}
+错误信息: ${msg}
+错误提示: ${tip}
++ state.pCName, true);
+		let pageNumber;
+		if (!pCNameList) {
+			console.error(`未找到类名为${
++ state.pageNumberCName, true);
+		if (!evaNumberLi) {
+			console.error(`未找到类名为${
+未根据配置找到兄弟元素，元素将添加到父元素结尾
+传入的对象不是一个错误对象
+plain
+	 * 构造一个代码片段对象
+	 *
+	 * 通过
+指定在发生错误时，错误信息指出的行与实际代码行的偏移量
+	 *
+plain
+	 * 给定错误行号来获取错误代码片段
+	 *
+plain
+	 * 获取当前代码片段
+	 *
+plain
+	 * 压入一个代码片段作为当前代码片段
+	 *
+plain
+	 * 弹出当前代码片段
+	 *
+plain
+	 * 构造一个错误报告对象
+	 * 以此来保存错误相关信息
+	 *
+plain
+	 * 向用户报告错误信息
+	 *
+-------------\n调用堆栈:\n${this.#stack}
+plain
+	 * 获取函数对应的代码片段
+	 *
+plain
+	 * 设置函数对应的代码片段
+	 *
+plain
+	 * 获取错误堆栈中与行列无关的错误信息
+	 *
+plain
+	 * 计算错误A比错误B多的堆栈层数
+	 *
+plain
+	 * 封装被设定了代码片段函数的错误捕获调用
+	 *
+	 * 当
+函数在它这一层调用栈中出现错误时
+	 * 此函数将自动记录此次错误信息并整理相关代码片段
+	 *
+plain
+	 * 设置错误报告器
+	 *
+	 * 在报告错误时可以从此处获取错误报告器来直接报告错误
+	 *
+plain
+	 * 获取设置的错误报告器
+	 *
+的索引解析为 [Object,
+] 的索引
+ * 支持以下几种情况:
+ *
+Monitor 不能监听自己
+Monitor 在启动期间不能修改
+Monitor 已经启动
+Monitor 还未启动
+无法为封送对象设置封送规则
+对象的封送规则已经被设置
+无法覆盖不可配置的构造函数
+plain
+ * 判断是否为基元类型
+ *
+plain
+ * AccessAction枚举
+ * 提供给Rule类作为权限ID
+ * 对应 Proxy 的12种拦截器
+ *
+plain
+ * 指定一个对象的封送规则
+ *
+ * 是否允许对象进行封送
+ * 是否允许对象封送到某个具体的运行域
+ * 是否允许封送的对象进行特定的操作
+ *
+plain
+	 * 创建一个封送规则
+	 *
+plain
+	 * 检查当前是否是 Rule 所属的运行域
+	 *
+plain
+	 * 是否允许对象进行封送
+	 *
+plain
+	 * 检查当前的规则是否允许封送到指定的运行域
+	 *
+plain
+	 * 将特定的运行域添加到当前对象的封送白名单
+	 *
+	 * 请注意，封送白名单与黑名单不能同时指定
+	 *
+plain
+	 * 将特定的运行域添加到当前对象的封送黑名单
+	 *
+	 * 请注意，封送白名单与黑名单不能同时指定
+	 *
+plain
+	 * 检查给定的AccessAction是否被允许
+	 *
+plain
+	 * 指定给定的AccessAction是否被允许
+	 *
+plain
+	 * 判断在给定的AccessAction与指定的参数下是否允许访问
+	 *
+plain
+	 * 设置当前的权限控制器
+	 *
+	 * 权限控制器形参是拦截器的对应参数
+	 * 返回值则控制本次访问是否允许
+	 *
+plain
+ * 为每个运行域的全局对象提供封送映射
+ *
+ * 非暴露类
+ *
+plain
+	 * 判断是否是顶级域的内建对象
+	 *
+plain
+	 * 解析映射路径
+	 *
+	 * 如: /a/b/c => ["/a/b/c", window.a.b.c]
+	 *
+plain
+	 * 解析映射路径为索引
+	 *
+	 * 如: /a/b/c => [window.a.b, "c"]
+	 *
+plain
+	 * 初始化运行域的全局对象映射
+	 *
+plain
+	 * 将一个对象映射为全局键
+	 *
+plain
+	 * 将一个全局键映射为对象
+	 *
+plain
+	 * 将一个运行域的全局对象映射为另一个运行域的全局对象
+	 *
+plain
+ * 对于原生函数进行封装
+ *
+ * 非暴露类
+ *
+plain
+	 * 初始化顶级运行域的Function
+	 *
+plain
+	 * 对某个域的原生函数进行封装
+	 *
+plain
+	 * 根据选择器对原生函数进行封装
+	 *
+plain
+	 * 对于具体的原生函数进行封装
+	 *
+plain
+	 * 将原生函数进行调用封装
+	 *
+plain
+	 * 将原生函数进行构造封装
+	 *
+plain
+	 * 将原生GETTER进行调用封装
+	 *
+plain
+	 * 将原生SETTER进行调用封装
+	 *
+plain
+	 * 将回调函数进行装箱
+	 *
+plain
+	 * 将回调函数进行拆箱
+	 *
+plain
+ * 管理每个运行域对于其封送对象的 Monitor
+ *
+ * 非暴露类
+ *
+plain
+	 * 在当前运行域安装一个 Monitor
+	 *
+plain
+	 * 从当前运行域卸载一个 Monitor
+	 *
+plain
+	 * 获取当前运行域封送到目标运行域的所有符合条件的 Monitor
+	 *
+plain
+	 * 对新的运行域进行 Monitor 安装
+	 *
+plain
+	 * 处理新的运行域
+	 *
+plain
+	 * 分发 Monitor 监听事件
+	 *
+plain
+	 * 安装一个 Monitor 监控
+	 *
+plain
+	 * 卸载一个 Monitor 监控
+	 *
+plain
+	 * 检查当前是否是 Monitor 所属的运行域
+	 *
+plain
+	 * 获取 Monitor 所属的运行域
+	 *
+plain
+	 * 指定 Monitor 可以监听的运行域
+	 * 默认监听封送到的所有运行域
+	 *
+plain
+	 * 指定 Monitor 不可监听的运行域
+	 * 默认监听封送到的所有运行域
+	 *
+plain
+	 * 指定 Monitor 监听的访问动作
+	 *
+plain
+	 * 指定 Monitor 监听的过滤器
+	 *
+	 * 回调参数 nameds 是一个对象，包含了 Monitor 监听的命名参数
+	 *
+plain
+	 * 判断 Monitor 是否已经启动
+	 *
+plain
+	 * 向外暴露 Monitor 监听的相关数据
+	 *
+plain
+	 * 检查 Monitor 监听的命名参数是否符合要求
+	 *
+plain
+	 * 处理 Monitor 监听事件
+	 *
+plain
+ * 提供运行域之间的对象封送
+ *
+plain
+	 * 判断是否应该封送
+	 *
+plain
+	 * 判断是否禁止封送
+	 *
+plain
+	 * 拆除封送代理
+	 *
+plain
+	 * 检查封送缓存
+	 *
+plain
+	 * 获取指定对象的封送规则引用
+	 *
+plain
+	 * 判断某个对象是否指定了封送规则
+	 *
+plain
+	 * 指定某个对象的封送规则
+	 *
+plain
+	 * 判断某个对象是否是其他运行域被封送的对象
+	 *
+plain
+	 * 获取封送对象的源运行域
+	 *
+plain
+	 * 对于封送或未封送的函数执行转字符串操作
+	 *
+plain
+	 * 判断给定的参数列表和函数体字符串是否可以构造一个合法的函数
+	 *
+plain
+	 * 陷入某个运行域并执行代码
+	 *
+plain
+	 * 封送数组
+	 *
+plain
+	 * 封送对象
+	 *
+plain
+	 * 根据目标对象的特征复制一个基本对象
+	 *
+plain
+	 * 封送核心函数
+	 *
+plain
+ * 运行域对象
+ *
+ * 提供运行域的创建以及周期管理
+ *
+plain
+	 * 创建运行域
+	 *
+	 * 一般不直接使用，
+	 * 请考虑使用直接创建沙盒
+	 *
+plain
+	 * 检查对象是否来自于当前的运行域
+	 *
+plain
+	 * 检查对象是否来自于当前的运行域的Promise
+	 *
+plain
+	 * 检查对象是否来自于当前的运行域的Error
+	 *
+plain
+	 * 检查对象是否来自于当前的运行域的危险对象
+	 *
+plain
+	 * 检查对象是否是Promise对象
+	 *
+plain
+	 * 获取当前运行域
+	 *
+plain
+	 * 获取调用链中上一个运行域
+	 *
+plain
+	 * 获取顶级运行域
+	 *
+plain
+ * 将对象从源运行域封送到目标运行域
+ *
+plain
+ * 向JavaScript提供类似于Python的exec的自带上下文的eval功能
+ * 同时自动排除原有作用域以沙盒方式来执行部分代码
+ *
+plain
+	 * 创建一个新的沙盒
+	 * 
+	 * 并指定沙盒使用的持久化ID
+	 * 当服务器需要使用
+时必须指定持久化ID来确保每次访问的持久化数据的一致性
+	 *
+plain
+	 * 检查沙盒操作运行域
+	 *
+plain
+	 * 封装沙盒的 Function 函数
+	 *
+plain
+	 * 替代原本的eval函数，阻止访问原生的 window 对象
+	 *
+plain
+	 * 获取当前的scope
+	 *
+plain
+	 * 获取当前沙盒内的运行域
+	 *
+plain
+	 * 获取当前沙盒内的document对象
+	 *
+plain
+	 * 设置当前沙盒内的document对象
+	 *
+plain
+	 * 向当前域注入内建对象
+	 *
+	 * 如果使用在使用了
+，
+	 * 则将自动继承前面的内建对象，无需再次调用
+plain
+		 * 如果要扩充沙盒的内建函数或类，请在此增加喵
+		 * 
+		 * 沙盒中模拟window提供的全局变量全部在这里喵
+		 *
+plain
+	 * 基于当前的scope克隆一个新的scope
+	 * 然后将原本的scope压入栈中
+	 *
+plain
+	 * 丢弃当前的scope并从栈中弹出原本的scope
+	 *
+plain
+	 * 核心编译函数
+	 *
+为false时，不存在的全局变量的赋值行为将被转移到context里面
+	 * 当
+为true(默认)时，任何全局变量的赋值行为将被转移到context里面
+	 *
+plain
+	 * 根据运行域获取沙盒对象
+	 *
+plain
+	 * 创建一个被代理的 Window 对象
+	 *
+	 * （为什么一定要指名道姓选window的东西喵）
+	 *
+实例 (简单模拟了一下
+} scope 传入一个对象作为上下文，或者传入
+plain
+ * 将一个沙盒作为当前联网传输的运行沙盒
+ *
+plain
+ * 退出当前联网传输的运行沙盒
+ *
+plain
+ * 判断对象是否是安全对象
+ *
+plain
+ * 确保对象是安全对象
+ *
+plain
+ * 获取当前指定的联网传输运行沙盒
+ *
+plain
+ * 进入沙盒运行模式
+ *
+plain
+ * 检查服务器地址并请求进入沙盒运行模式
+ *
+plain
+ * 判断是否是沙盒运行模式
+ *
+plain
+ * 是否可以跳过沙盒进行编译
+ *
+plain
+ * 简单的、不带上下文的模拟eval函数
+ *
+ * 自动根据沙盒的启用状态使用不同的实现
+ *
+plain
+ * 携带简单上下文的eval函数
+ *
+ * 自动根据沙盒的启用状态使用不同的实现
+ *
+plain
+ * 携带简单上下文的eval函数，并返回scope
+ * eval代码的返回值将覆盖
+的使用示例:
+ *
+*
+ * @param {any} x
+ * @param {Object|"window"} scope 传入一个对象作为上下文，或者传入 "window" 来生成一个包含指向自身的
+plain
+ * 初始化模块
+ *
+plain
+ * 创建一个新的沙盒
+ *
+plain
+ * 导出当前沙盒的Function类型
+ *
+plain
+ * 根据传入对象的运行域获取对应的Function类型
+ *
+的相关类
+ *
+ * 请注意，这需要先判断
+plain
+ * 初始化顶级域的Funcion类型封装
+ *
+plain
+ * 初始化需要额外序列化的函数
+ *
+ * 适配扩展，当在skillcontent里面调用皮切的playEffect时会报错
+ *
+plain
+ * 加载当前的垫片函数
+ *
+plain
+ * 初始化沙盒的垫片
+ *

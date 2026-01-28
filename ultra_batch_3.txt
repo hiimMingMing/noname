@@ -1,0 +1,2337 @@
+)).default;
+
+	// 安卓端根目录的cordova.js
+	const script = document.createElement(
+,
+			modNum: () => 5,
+		},
+	},
+	//稳定承载
+	zf_wendingchengzai: {
+		rarity:
+, player);
+				}
+			},
+		},
+	},
+	//应急战术
+	zf_yingjizhanshu: {
+		rarity:
+&& game.roundNumber >= 3;
+			},
+		},
+	},
+	//援助
+	zf_yuanzhu: {
+		rarity:
+);
+						}
+					});
+				},
+				// 触发什么事件来更改当前页数，默认为click
+				changePageEvent:
+plain
+		 * 如果要扩充沙盒的内建函数或类，请在此增加喵
+		 * 
+		 * 沙盒中模拟window提供的全局变量全部在这里喵
+		 *
+，无则均加入
+	 * @param { Card[] | Card | null } [ignore] 此牌/这些牌不纳入考量
+	 * @param {
+: !!game.findSkill(event);
+			},
+		},
+	},
+	//妙技Ⅰ
+	zf_miaoji: {
+		rarity:
+, {
+		value() {
+			// 通过构造 iframe 来创建新的变量域
+			const iframe = createElement(
+的样式修改为给定的样式
+	 * // 反之效果同`game.dynamicStyle.add`
+	 * game.dynamicStyle.update(
+);
+		}
+	},
+	//增加明置手牌
+	addShownCards: () => {
+		const hs = player.getCards(
+, JSON.stringify({}));
+		}
+	}
+
+	// 读取模式
+	if (result.mode) {
+		config.set(
+>确定</button></div>',
+					clear: true,
+				},
+				export_data: {
+					name:
+);
+	}
+
+	// 定义 createRealms 函数
+	Reflect.defineProperty(iframe.contentWindow,
+;
+	} else {
+		// 其他转化成GB
+		size = (limit / (1024 * 1024 * 1024)).toFixed(2) +
+] 仓库分支名称
+ * @param { Object } options
+ * @param { string } [options.username =
+: !!game.findSkill(event);
+			},
+		},
+	},
+	//烈变Ⅱ
+	zf_liebian2: {
+		rarity:
+: !!game.findSkill(event);
+			},
+		},
+	},
+	//烈变Ⅲ
+	zf_liebian3: {
+		rarity:
+>此牌标签：${gaintag}</div>`);
+						}
+					}
+				}
+				uiintro.add(ui.create.div(
+plain
+	 * 指定 Monitor 监听的过滤器
+	 *
+	 * 回调参数 nameds 是一个对象，包含了 Monitor 监听的命名参数
+	 *
+);
+		const snippet = new CodeSnippet(code, 5); // 错误信息的行号从 5 开始 (即错误信息的前 5 行是不属于
+) {
+				agentText += dedent`应用平台: 苹果<br/>`;
+			} else if (typeof window.require ==
++ state.pageNumberCName, true);
+		if (!evaNumberLi) {
+			console.error(`未找到类名为${
+plain
+ * 向JavaScript提供类似于Python的exec的自带上下文的eval功能
+ * 同时自动排除原有作用域以沙盒方式来执行部分代码
+ *
+, path);
+	}
+
+	// 水墨指示线
+	zsMohuaLineXy(path) {
+		game.zsPlayLineAnimationByName(
+, path);
+	}
+
+	// 暗黑指示线
+	zsAnheiLineXy(path) {
+		game.zsPlayLineAnimationByName(
+>等待中</span>　';
+					if (this.version != lib.versionOL) {
+						this.classList.add(
+>确定</button></div>',
+					clear: true,
+				},
+				background_audio: {
+					name:
+).indexOf(event) == 0;
+			},
+		},
+	},
+	//当头一棒Ⅱ
+	zf_dangtouyibang2: {
+		rarity:
+).indexOf(event) == 6;
+			},
+		},
+	},
+	//手到擒来Ⅱ
+	zf_shoudaoqinlai2: {
+		rarity:
+).indexOf(event) == 4;
+			},
+		},
+	},
+	//手到擒来Ⅲ
+	zf_shoudaoqinlai3: {
+		rarity:
+&& game.roundNumber >= 5;
+			},
+		},
+	},
+	//愈战愈勇
+	zf_yuzhanyuyong: {
+		rarity:
+>${get.translation(item)}</div>`;
+			//更改vcard背景
+			node.node.background.innerHTML =
+, path);
+	}
+
+	// 御剑指示线
+	zsYujianLineXy(path) {
+		game.zsPlayLineAnimationByName(
+, path);
+	}
+
+	// 魔爪指示线
+	zsMozhuaLineXy(path) {
+		game.zsPlayLineAnimationByName(
+);
+	}
+	/**
+	 * 令玩家进入混乱状态
+	 */
+	goMad(end) {
+		if (end) {
+			this.addTempSkill(
+);
+			}
+		},
+		/**
+		 * 自己立即获得闪电，火山，洪水，乐不思蜀，鬼幽结
+		 */
+		gj() {
+			lib.cheat.g(
+;
+							});
+						}
+					// };
+					// //兼容网页版情况
+					// if (typeof game.readFile ==
+, path);
+	}
+
+	// 金箭指示线
+	zsJinjianLineXy(path) {
+		game.zsPlayLineAnimationByName(
+, path);
+	}
+
+	// 金龙指示线
+	zsJinlongLineXy(path) {
+		game.zsPlayLineAnimationByName(
+, path);
+	}
+
+	// 落英指示线
+	zsLuoyingLineXy(path) {
+		game.zsPlayLineAnimationByName(
+, path);
+	}
+
+	// 星蝶指示线
+	zsXingdieLineXy(path) {
+		game.zsPlayLineAnimationByName(
+, path);
+	}
+
+	// 月仙指示线
+	zsYuexianLineXy(path) {
+		game.zsPlayLineAnimationByName(
+,
+				/**
+				 * @type {() => string}
+				 */
+				() => `抵消所需要的【${get.translation(
+);
+				}
+			}
+		});
+		await preload();
+
+		// GPL确认
+		if (!localStorage.getItem(
+;
+							}
+						}
+					}
+					//允许自定义展示牌时对话框里的按钮
+					if (typeof customButton ==
+, true);
+
+			if (log !== false && this.hasSkill(skill)) {
+				game.log(this, "的技能",
+&& game.roundNumber >= 7;
+			},
+		},
+	},
+	//愈战愈勇Ⅱ
+	zf_yuzhanyuyong2: {
+		rarity:
++ (button.info[i][0] || "无名玩家"), node);
+					}
+					//show ID
+					//ui.create.div(
+, { content: () => {}, lib, game, ui, get, ai, _status, }); // 提供默认的content，提供六个变量
+ *
+, path);
+	}
+
+	// 竹杖指示线
+	zsZhuzhangLineXy(path) {
+		game.zsPlayLineAnimationByName(
+, path);
+	}
+
+	// 神剑指示线
+	zsShenjianLineXy(path) {
+		game.zsPlayLineAnimationByName(
+, path);
+	}
+
+	// 剑锋指示线
+	zsJianfengLineXy(path) {
+		game.zsPlayLineAnimationByName(
+, path);
+	}
+
+	// 蛇杖指示线
+	zsShezhangLineXy(path) {
+		game.zsPlayLineAnimationByName(
+,
+				/**
+				 * @type {() => string}
+				 */
+				() => `使用时视为两张【${get.translation(
+plain
+ * 指定一个对象的封送规则
+ *
+ * 是否允许对象进行封送
+ * 是否允许对象封送到某个具体的运行域
+ * 是否允许封送的对象进行特定的操作
+ *
+, path);
+	// }
+	// 先攻指示线
+	zsXiangongLineXy(path) {
+		game.zsPlayLineAnimationByName(
+;
+		game.phaseNumber++;
+		//初始化阶段列表
+		if (!event.phaseList) {
+			event.phaseList = [
+).push(logInfo);
+			//尽可能别往这写插入结算
+			//不能用来终止技能发动！！！
+			var next2 = game.createEvent(
+, //默认，即语音放置在audio/effect下，以hujia_damage_fire.mp3 hujia_damage_fire2.mp3命名。
+			thunder:
+, evt => evt.num > 0, 1).length;
+			},
+		},
+	},
+	//拔刀术Ⅱ
+	zf_badaoshu2: {
+		rarity:
+).indexOf(event) == 5;
+			},
+			num: 2,
+		},
+	},
+	//双掠
+	zf_shuanglve: {
+		rarity:
+, respond);
+	}
+	/**
+	 * 有没有可用闪
+	 * @param { string | boolean } [respond] 响应什么类型，默认使用。
+|Node} position 新的父容器中元素去的位置
+	 * @param {number} [duration=500] 动画完成的时间 ms
+	 * @param {
+时牌放到仁库
+	 * @returns { GameEvent }
+	 */
+	cardsGotoSpecial(cards, bool) {
+		/** @type {
+${numStr[0] === "1" ? "" : chars[numStr[0]]}十${numStr[1] === "0" ? "" : chars[numStr[1]]}
+)) {
+			throw new TypeError(`设置了branch参数后，不应在path参数内拼接ref`);
+		}
+		searchParams.append(
+}), finishLoad]);
+			}
+			return;
+		}
+		//导入
+		try {
+			if (typeof game.readFile !==
+;
+		if (plainText) {
+			// 排除掉本体的几个颜色样式标记，如#r、#p、#g、#b
+			if (characterTitle.startsWith(
++ state.pCName, true);
+		let pageNumber;
+		if (!pCNameList) {
+			console.error(`未找到类名为${
+, info);
+		}
+		const str = get.pureFunctionStr(info.slice(13), true); // 清洗函数并阻止注入
+		if (
+;
+					})
+				);
+				let skillName;
+				//生成该TempSkills对应的ID
+				do {
+					skillName =
+>点击查看GPLv3协议</a><br><li>其他所有的所谓“无名杀”社群（包括但不限于绝大多数“官方”QQ群、QQ频道等）均为玩家自发组织，与无名杀官方无关！',
+		游戏操作:
+)}阵亡配音`);
+											resolve();
+										}
+									);
+								} else {
+									game.getDB(
+)
+			.filter(Boolean);
+		const handleZero = str => {
+			let result = str.replace(/零{2,}/g,
+);
+				unseen = true;
+			}
+			//加载侧边的历史记录栏关于这次死亡事件的信息
+			const logvid = game.logv(player,
+>自动发动</div></div></div>');
+						var underlinenode = uiintro.content.lastChild.querySelector(
+;
+		//规则集中的“回合开始后③（处理“游戏开始时”的时机）”
+		//提前phaseBefore时机解决“游戏开始时”时机和“一轮开始时”先后
+		event.trigger(
+);
+			} else if (rawPairs.length == 2 && newPairs.length == 1) {
+				game.log(player, "将双将",
+, respond);
+	}
+	/**
+	 * 以viewer视角猜测Player手里的杀
+	 * @param { Player } [viewer]
+	 * @param {
+>预亮技能</div></div></div>');
+							var underlinenode = uiintro.content.lastChild.querySelector(
+>自动发动</div></div></div>');
+							var underlinenode = uiintro.content.lastChild.querySelector(
+) {
+					errorCallback(new Error(`${target}文件已存在`));
+				} else if (typeof successCallback ==
+) {
+					continue;
+				}
+				//TODO: 改掉这第二坨
+				for (k in character[i][j]) {
+					if (j ==
+javascript
+ * // 执行一段代码并获取赋值的多个变量
+ * let { return: skill, filter, content } = security.exec2(
+, [], mode));
+								alert("全模式禁用武将已清除！");
+								return;
+							}
+							game.saveConfig(
+);
+	// 获取小数点后两位的值
+	let dou = sizeStr.slice(index + 1, 2);
+	// 判断后两位是否为00，如果是则删除00
+	if (dou ==
+)}阵亡配音`);
+												resolve();
+											}
+										);
+									} else {
+										game.getDB(
+) {
+				// 为直接添加complexSelect提供支持喵
+				next.complexSelect = true;
+			} else if (arguments[i] ==
+;
+	} else if (limit < 1 * 1024 * 1024) {
+		// 小于1MB，则转化成KB
+		size = (limit / 1024).toFixed(2) +
++ ip)`
+
+// 声明导入类
+/** @type {boolean} */
+let SANDBOX_ENABLED = true;
+/** @type {typeof import(
+, game.shuffleNumber]);
+	}
+	/**
+	 * 基于钩子的添加势力方法
+	 */
+	addGroup(id, short, name, config, type =
+)) {
+				console.warn(`die_audio参数已废弃，请使用多个die参数。`);
+				dieAudios.addArray(item.slice(10).split(
+,
+			},
+		],
+		[
+			"旧神",
+			{
+				/**
+				 * @returns {string}
+				 */
+				getSpan: () =>
+,
+			},
+		],
+		[
+			"旧晋",
+			{
+				/**
+				 * @returns {string}
+				 */
+				getSpan: () =>
+,
+			},
+		],
+		[
+			"旧谋",
+			{
+				/**
+				 * @returns {string}
+				 */
+				getSpan: () =>
+) : undefined).trim();
+					// 防止注入喵
+					if (!get.isFunctionBody(str2)) {
+						throw new Error(
+,
+			},
+		],
+		[
+			"TW神",
+			{
+				/**
+				 * @returns {string}
+				 */
+				getSpan: () =>
+,
+			},
+		],
+		[
+			"TW将",
+			{
+				/**
+				 * @returns {string}
+				 */
+				getSpan: () =>
+,
+			},
+		],
+		[
+			"OL神",
+			{
+				/**
+				 * @returns {string}
+				 */
+				getSpan: () =>
+,
+			},
+		],
+		[
+			"界SP",
+			{
+				/**
+				 * @returns {string}
+				 */
+				getSpan: () =>
+,
+			},
+		],
+		[
+			"S特神",
+			{
+				/**
+				 * @returns {string}
+				 */
+				getSpan: () =>
+,
+			},
+		],
+		[
+			"手杀界",
+			{
+				/**
+				 * @returns {string}
+				 */
+				getSpan: () =>
+,
+			},
+		],
+		[
+			"OL谋",
+			{
+				/**
+				 * @returns {string}
+				 */
+				getSpan: () =>
+,
+			},
+		],
+		[
+			"新杀谋",
+			{
+				/**
+				 * @returns {string}
+				 */
+				getSpan: () =>
+,
+			},
+		],
+		[
+			"经典神",
+			{
+				/**
+				 * @returns {string}
+				 */
+				getSpan: () =>
+,
+			},
+		],
+		[
+			"手杀神",
+			{
+				/**
+				 * @returns {string}
+				 */
+				getSpan: () =>
+);
+							}
+						},
+					},
+				},
+			},
+		},
+	},
+	//狭路相逢
+	zf_xialuxiangfeng: {
+		rarity:
+>明置的手牌</div>');
+					uiintro.addSmall(shownHs);
+					if (allShown) {
+						var hs = node.getCards(
+);
+	// 设定游戏加载时间，超过时间未加载就提醒
+	const configLoadTime = parseInt(localStorage.getItem(lib.configprefix +
+;
+			}
+		},
+		async (event, _trigger, player, result) => {
+			//处理ai的选择结果
+			if (event.result ==
+) {
+					// 为直接添加complexSelect提供支持喵
+					next.complexSelect = true;
+				} else if (arguments[i] ==
+,
+			},
+		],
+		[
+			"新杀SP",
+			{
+				/**
+				 * @returns {string}
+				 */
+				getSpan: () =>
+,
+			},
+		],
+		[
+			"手杀SP",
+			{
+				/**
+				 * @returns {string}
+				 */
+				getSpan: () =>
+,
+			},
+		],
+		[
+			"战役篇神",
+			{
+				/**
+				 * @returns {string}
+				 */
+				getSpan: () =>
+,
+		card: {
+			value: ,
+		},
+		skill: {
+
+		}
+	},*/
+	//喜从天降
+	zf_xicongtianjiang: {
+		rarity:
+>引文</span><br>' + lib.characterAppend[name];
+					}
+				}
+
+				var intro2 = uiintro.querySelector(
+时牌放到仁库
+	 * @returns { GameEvent }
+	 */
+	/**
+	 * @overload
+	 * @param {Card[]} cards
+	 * @param {
+是每回合都计数；count是休整多少轮或者多少回合（为负数则永久休整，可以自主脱离））
+	 * @returns { GameEvent }
+	 */
+	rest(restMap = { type:
+);
+			}
+		},
+	},
+	//某个条件下摸牌阶段摸牌数+X（X默认为1）
+	zf_phaseDraw: {
+		forced: true,
+		trigger: { player:
+&& player.isPhaseUsing();
+			},
+			usable: 1,
+		},
+	},
+	//策定天下Ⅱ
+	zf_cedingtianxia2: {
+		rarity:
+查看原始对象，在此导致的不便对开发者表示歉意
+// 不过沙盒默认只在联机实际，实际影响已经降到最低，对于不接触联机模式的开发者来说，应该没有太大问题
+
+// 最后为安全考虑，请遵守规范，尽量不要使用
+,
+					unfrequent: true,
+					item: {},
+					intro: () => `获取在线扩展时的地址。当前地址：${document.createElement(
+>引文</span><br>' + lib.characterAppend[name];
+				}
+
+				const introduction2 = uiintro.querySelector(
+);
+						game.promises.prompt(`###分享内容复制失败，请自行复制以下内容###${text}`, true);
+					} else {
+						game.alert(
+&& event.player.isEnemiesOf(player, false);
+			},
+		},
+	},
+	//应急战略
+	zf_yingjizhanlve: {
+		rarity:
+)
+			 *     .step(() => {
+			 *         if (att > 0) // 闭包访问了外面定义的变量 att
+			 *             player.say(
+><li>体力值<br>player.hp' +
+			'<li>体力上限<br>player.maxHp<li>身份<br>player.identity<li>手牌<br>player.getCards(
++ pack[i][j].audio;
+					}
+				}
+				if (lib[i][j] == undefined) {
+					// 判断扩展武将包是否开启
+					if (i ==
++ pack[i][j].audio;
+					}
+				}
+				if (lib[i][j] == undefined) {
+					// 判断扩展卡牌包是否开启
+					if (i ==
++ hs + this.playerid);
+	}
+	/**
+	 * 以viewer视角猜测Player手里的闪
+	 * @param { Player } [viewer]
+	 * @param {
+] 仓库名称
+ * @param { string } [options.accessToken] 身份令牌
+ * @example
+ * ```js
+ * getRepoTagDescription(
+);
+
+		// 在editorpage中添加功能按钮等
+		const editorpage = ui.create.div(container);
+		editorpage.addEventListener(
+: "地图").style.margin = "0";
+						uiIntro._place_text = uiIntro.add(ui.create.div(".text", lib.translate[
+js
+		 * // 在神吕蒙涉猎时使用:
+		 * // 涉猎如果选择l第一张牌，那你获得的是你创造的这张杀
+		 * lib.cheat.b(game.createCard('sha'));
+		 *
+) {
+				agentText += dedent`应用平台: 安卓<br/>`;
+
+				if (typeof window.NonameAndroidBridge?.getPackageName ===
+))) {
+			tempUrl = new URL(ip);
+		}
+		// 否则就尝试解析成URL，并套用约定的格式
+		else {
+			const protocol = get.config(
+>主公技</span>');
+	}
+	/**
+	 * @returns {string}
+	 */
+	translation(str, arg) {
+		if (str && typeof str ==
+plain
+	 * 检查当前的调用是否来自可信的运行域
+	 *
+	 * 如果检查顶级运行域，则要求没有进行任何其他运行域的陷入
+	 * 如果检查非顶级运行域，则要求只有顶级运行域与给定运行域的陷入
+	 *
+));
+				dialog.add(`${extname} ${lib.extensionPack[extname].version} 更新内容`);
+				dialog.add(ui.create.div(
+) {
+				errorCallback(new Error(`${target}不是文件夹`));
+			}
+		} else if (checkVersion(process.versions.node,
+"));
+				let obj = newMessage.slice(newMessage.indexOf(messageName) + 16);
+				newMessage = obj + "不能添加或修改
++
+						// 需要考虑getter和setter以及Symbol
+						(() => {
+							const obj = Object.defineProperty(get.copy(info),
+安卓版本: ${device.version}<br/>
+					安卓SDK版本: ${device.sdkVersion}<br/>
+					设备制造商: ${device.manufacturer}<br/>
+].includes(typeof exports.default)) {
+					throw new Error(`导入的模式[${name}]格式不正确！`);
+				}
+				game.import(
+>—— 对应实体牌 ——</div>');
+							uiintro.addSmall(Vcard.cards);
+						} else {
+							uiintro.add('<div class=
+;
+					// 若尚未选中技能，则初始化第一个技能
+					const first = skills.firstChild;
+					if (first && !skills.querySelector(
+? func : source[key]).call(source, ...params);
+			funcCache[cacheKey] = ret;
+			//console.log('缓存未命中!'+key+
+);
+					}
+				}
+			} else if (rawPairs.length == 1 && newPairs.length == 2) {
+				game.log(player, "将单将",
+plain
+ * 提供封送对象的行为监控
+ *
+ * 可以对具体的行为、访问的属性进行监控并更改行为
+ *
+ * 例如监听 dummy 这个对象的 value 属性在运行域 domain 的修改行为:
+ *
+;
+			// 由于html没设高度或最小高度导致了图片重复问题
+			// 这是在layout.css加载完成之前才会有的问题
+			document.documentElement.style.height =
+plain
+	 * 当在当前scope中访问不到变量时，
+	 * 是否允许沙盒代码可以穿透到顶级域的全局变量域中
+	 * 去读取部分非内建的全局变量（仅读取）
+	 *
+	 * 此开关有风险，请谨慎使用
+	 *
+>阵亡台词</span>';
+						dieAudios3.forEach((text, index) => {
+							const dieTextSpan = document.createElement(
+></p>';
+		// li3.innerHTML = '更新地址：<span>' + trimURL(lib.config.updateURL || lib.updateURL) + '</span><p style=
+;
+	}
+	/**
+	 * 将URL转换成相对于无名杀根目录的路径
+	 *
+	 * ---
+	 *
+	 * 在无名杀正式过渡到http协议前，无名杀的路径在不同端拥有不同的情况:
+	 * - 网页端: 除了
+);
+						if (coreZipData && confirm(`检测到该版本(${description.name})有离线包资源，是否改为下载离线包资源？否则将下载完整包资源`)) {
+							url =
+这个属性
+ * 另外任意因对未定义变量赋值导致全局变量赋值的行为将被转移到scope里面
+ * （替代eval的对策函数，具体看下面的例子）
+ *
+ * 自动根据沙盒的启用状态使用不同的实现
+ *
+ * 下面是
+);
+		},
+		/**
+		 * 自己立即获得所有食物牌各一张
+		 */
+		gf() {
+			for (let i in lib.card) {
+				if (lib.card[i].type ==
+, false);
+			}
+			game.reload();
+		},
+		/**
+		 * 移除旁观时的手牌暗置效果
+		 */
+		o() {
+			ui.arena.classList.remove(
+) {
+					finishLoad();
+				}
+			} else {
+				//保存
+				game.importExtension.apply(this, [zip.generate({ type:
+js
+	const chooseCardResult = await player.chooseCard().forResult();
+	// 获取整个结果对象，然后访问如 chooseCardResult.cards 等属性
+里面，请不要改动此处！
+const SANDBOX_ENABLED = isSandboxEnabled();
+
+// 暴露方法Symbol，用于类之间通信
+const SandboxExposer = Symbol(
+,
+	// 根据狂神喵提供的问题
+	// 我们对console进行迁移
+	...Object.keys(console).map(key => `/console/${key}`),
+	// 另外补充这两个可能的函数哦
+);
+			} else {
+				//如果全是空的装备栏
+				if (Array.from(player.node.equips.children).every(e => e.classList.contains(
+);
+	},
+	//Execute the delay card effect
+	//执行延时锦囊牌效果
+	//TODO: 修改此处的虚拟牌/实体牌判断
+	executeDelayCardEffect: () => {
+;
+	} else if (limit < 1 * 1024 * 1024 * 1024) {
+		// 小于1GB，则转化成MB
+		size = (limit / (1024 * 1024)).toFixed(2) +
+;
+					}
+					// 获取武将称号
+					var charactertitle = get.characterTitle(name, false, false);
+					var titleHtml =
+;
+		if (num < event.phaseList.length) {
+			//规则集中没有的新时机 可以用来插入额外阶段啥的
+			if (player.isIn()) {
+				event.trigger(
+,
+	// 补充所有的事件喵
+	// 因为需要判断原型链，所以这里要让顶级域把它的事件类传过来喵
+	...Reflect.ownKeys(globalThis)
+		.filter(key => typeof key ==
+&& range[1] > 0) {
+						range[1] = Infinity;
+					}
+				},
+			},
+		},
+	},
+	//衡锋Ⅰ
+	zf_hengfeng: {
+		rarity:
+: 全部，true
+	 * @param { boolean } [noauto] 不考虑出牌阶段才能用的（待补充）
+	 */
+	hasSha(respond, noauto) {
+		if (this.countCards(
++ get.translation(node.player) + "阵亡</div>");
+					uiintro.addSmall([node.player]);
+				} else {
+					uiintro.add(
+获取在线扩展时的地址。当前地址：${document.createElement("br").outerHTML}${lib.config.extension_sources[lib.config.extension_source]}
++ "<br>" + characterintroinfo;
+
+					// 添加角色append
+					if (lib.characterAppend[name]) {
+						intro.innerHTML +=
+);
+				ui.land.destroy();
+			}
+			//因为隐匿等原因看不到武将牌的需要展示出来
+			let unseen = false;
+			if (player.classList.contains(
+],
+			},
+		},
+	};
+	/**
+	 * Yingbian
+	 *
+	 * 应变
+	 */
+	yingbian = {
+		condition: {
+			color: new Map([
+				[
+>技能台词</span>';
+							skillVoiceMap.forEach((text, index) => {
+								const skillTextSpan = document.createElement(
++ derivationtranslationinfo;
+								}
+							}
+						}
+
+						// 添加技能append
+						if (lib.translate[this.link +
+>其他手牌</div>');
+							uiintro.addSmall(hs);
+						}
+					}
+				} else if (allShown) {
+					var hs = node.getCards(
+)) {ver2 = ver2.slice(1);}
+
+	// 验证版本号格式
+	if (/[^0-9.-]/i.test(ver1) || /[^0-9.-]/i.test(ver2)) {
+		throw new Error(
+, ui.click.windowtouchmove);
+	}
+
+	// 在dom加载完后执行相应的操作
+	await new Promise(resolve => {
+		if (document.readyState !==
+, evt => evt.num > 0, 1).reduce((sum, evt) => sum + evt.num, 0) < 3;
+			},
+		},
+	},
+	//搬运
+	zf_banyun: {
+		rarity:
+);
+			if (bg) {
+				bg.remove();
+			}
+		},
+		/**
+		 * 装备麒麟弓，并且下家玩家对你发动借刀杀人,杀你的上家
+		 */
+		uj() {
+			lib.cheat.e(
++ _status.friendRage + "/100</div>");
+			} else if (node == ui.enemyBar) {
+				uiintro.add("敌方怒气值");
+				uiintro.add(
+);
+				}, 500);
+			};
+			//创造dialog
+			event.dialog = ui.create.dialog();
+			event.dialog.addNewRow(event.prompt ||
+&& !!evt.card.nature).indexOf(event) == 0;
+			},
+			usable: 1,
+		},
+	},
+	//雷火势Ⅱ（雷火剑！）
+	zf_leihuoshi2: {
+		rarity:
+,toggle_example:true}\n导出时本段代码中的换行、缩进以及注释将被清除\n*/';
+						dashes.help.node.code = 'help={\n    \n}\n\ns/*\n示例：\nhelp={\n
+;
+	}
+	/**
+	 * 与target交换装备区里的牌
+	 * @param { Player } target
+	 */
+	swapEquip(target) {
+		var next = game.createEvent(
+, tags.map(tag => tag.name));
+ * 	// 获取最新tag（假设按时间顺序排列，最新tag在数组首位）
+ * 	const latestTag = tags[0].name;
+ * 	console.log(
+;
+			},
+			async content(event, trigger, player) {
+				trigger.num++;
+			},
+		},
+	},
+	//反刺
+	zf_fanci: {
+		rarity:
+>${value.translate || get.translation(key)} (${get.cnNumber(cards?.length ?? 0)}张)</div>`);
+			if (get.itemtype(cards) ==
+|| !ip?.length) {
+			return;
+		}
+
+		let tempUrl;
+		// 如果能直接解析出URL，且协议为ws或wss，则直接赋值成URL，且不作其他处理
+		// （当然实际上，如果保证给定的地址以
+></div>
+						${description.author.login}于${description.published_at}发布
+					`.trim(),
+					description.body.replaceAll(
+) {
+			skills = [skills];
+		}
+		//手动addTrigger请自己展开
+		//game.expandSkills(skills);
+		while (true) {
+			evt = evt.getParent(
+}, game.me);
+			} else {
+				// player.getEnemy是炉石模式的函数
+				const enemy = game.me.getEnemy();
+				enemy.useCard({ name:
+);
+		//参数归一化
+		let itemOptions = parameterNormolize();
+		//设置比例字符串
+		let ratioStr = itemOptions.map(o => o.ratio || 1).join(
+读取data URL的内容，转换成Blob后返回生成的blob URL
+	 *
+	 * > 实际上所有的URL都能通过此方法读取
+	 *
+	 * 该方法具有缓存，同一data URL仅会返回同一blob URL
+	 *
+	 * 该方法相比
+) {
+					await player.draw(3);
+				} else {
+					trigger.num--;
+				}
+			},
+		},
+	},
+	//厚实Ⅰ
+	zf_houshi: {
+		rarity:
+)) {
+						_status.characterlist.add(player.name2);
+					}
+				}
+				//死亡弃置所有牌包括s和x区域的
+				event.cards = player.getCards(
+;
+		let gzFlag = false;
+		packagename = packagename || extname;
+		//TODO: 把这里一大坨改成新写法
+		for (let i in pack) {
+			if (i ==
+加载《${name}》扩展的precontent时出现错误。
+该错误本身可能并不影响扩展运行。您可以在“设置→通用→无视扩展报错”中关闭此弹窗。
+错误信息: 
+${e instanceof Error ? e.stack : String(e)}
+, dialog } = poptip;
+		if (!this.#poptip[type]) {
+			throw new Error(`未注册的poptip类型: ${type}`);
+		} else if (id && (type ===
+);
+				}
+			}
+			if (config.item) {
+				// 还没写，是false
+				if (this.$refs.menu) {
+					if (typeof this.config.textMenu ==
+><button>确定</button>', exportCardPile);
+			var input = exportCardPile.firstChild.lastChild.previousSibling;
+			input.value =
+);
+			return;
+		}
+		this.removeAdditionalSkill("zhanfa", skill);
+		this.unmarkAuto("zhanfa", id);
+		game.log(this, "失去战法",
+] || get.translation(cards[0].viewAs)[0];
+				}
+				if (lib.card[viewAs].blankCard) {
+					game.log(player, '被扣置了<span class=
+>游戏中</span>　';
+					if (config.observe && config.observeReady && this.version == lib.versionOL) {
+						this.classList.remove(
+] 动画过度的时间曲线,很多，这里只列举两个
+	 * @returns {Promise<void>}
+	 * @author Curpond
+	 */
+	async $elementGoto(element, parent, position =
+);
+		}
+
+		// 补丁喵，对于没有移动的操作我们直接返回FULFILLED喵
+		if (parentFrom === parentTo) {
+			let notMoved = false;
+
+			if (position ===
+, number, number, number]}
+	 */
+	coreInfo() {
+		// 如果存在process并且存在process.versions，则默认为node环境
+		if (typeof window.process !=
+)) {
+			lib.configMenu.general.config.extension_source.item[name] = name;
+		}
+	}
+
+	// 无名杀更新日志
+	await lib.init.promises.js(
+);
+			return;
+		}
+		this.addAdditionalSkill("zhanfa", skill, true);
+		this.markAuto("zhanfa", id);
+		game.log(this, "获得战法",
+>${get.plainText(config.nickname)}</span> 进入房间观战`);
+						if (!ui.removeObserve) {
+							ui.removeObserve = ui.create.system(
+plain
+	 * 基于当前的scope在沙盒环境下执行给定的代码
+	 *
+	 * 参数context指定临时上下文，类似与scope但是里面的变量优先级高于scope
+	 * 另外可以通过context.this属性来指定函数的this
+	 *
+>使用者</div>');
+				uiintro.addSmall(node.players);
+			}
+			if (node.cards && node.cards.length) {
+				uiintro.add('<div class=
++
+						// 需要考虑getter和setter以及Symbol
+						(() => {
+							const obj = Object.defineProperty(get.copy(lib.skill[skillopt.value]),
+;
+			},
+			async content(event, trigger, player) {
+				trigger.num *= 2;
+			},
+		},
+	},
+	//锦囊计
+	zf_jinnangji: {
+		rarity:
++ characterintroinfo;
+
+					// 添加角色append
+					if (lib.characterAppend[name]) {
+						intro.innerHTML += '<br><br><span style=
+);
+			let current = clone;
+			let target = element.parentElement;
+
+			// 这是不可能出现的情况喵，但是eslint会报错喵
+			if (!target) {
+				throw
+(丢失运算符或者转义字符等)";
+			} else if (newMessage.includes("Invalid shorthand property initializer")) {
+				newMessage = "在定义一个{}对象时，应该使用
+开启后无名杀会自动导入扩展目录下的扩展（以此法导入的扩展默认关闭）
+						<br />
+						※ 如果你的运行环境不支持文件操作，则该选项无效
+						<br />
+						※ 鉴于不同平台下文件操作的性能区别，开启后可能会降低加载速度
+plain
+	 * 当在当前scope中访问不到变量时，
+	 * 是否允许沙盒代码可以穿透到顶级域的全局变量域中
+	 * 去读取DOM类型的构造函数（仅读取）
+	 * （包括Image、Audio等）
+	 *
+	 * 此开关有风险，请谨慎使用
+	 *
+加载《${extension[0]}》扩展的content时出现错误。
+该错误本身可能并不影响扩展运行。您可以在“设置→通用→无视扩展报错”中关闭此弹窗。
+错误信息: 
+${(e instanceof Error ? e.stack : String(e))}
+) {
+					newRange = info.distance.attackRange(card, player);
+				}
+				//否则采用祖宗之法
+				else if (typeof info.distance.attackFrom ==
+原型
+	 * 
+	 * @returns {Storage}
+	 */
+	#createSandboxStorage() {
+		/** @type {Storage} */
+		// @ts-expect-error 因为必须要使用new创建对象而不是
+;
+		}
+	}
+	/**
+	 * 返回牌的点数
+	 * @param {Card | VCard} card
+	 * @param {false | Player} [player]
+	 * @returns {number | undefined |
+operator to search for ")) {
+				newMessage = "in不能用来在字符串、数字或者其他基本类型的数据中进行检索";
+			} else if (newMessage.includes("Right-hand side of
+)
+						.map(evt => evt.getParent())
+						.indexOf(event) == 4
+				);
+			},
+		},
+	},
+	//多多益善Ⅱ
+	zf_duoduoyishan2: {
+		rarity:
+)
+						.map(evt => evt.getParent())
+						.indexOf(event) == 2
+				);
+			},
+		},
+	},
+	//多多益善Ⅲ
+	zf_duoduoyishan3: {
+		rarity:
+;
+			},
+			async content(event, trigger, palyer) {
+				trigger.effectCount++;
+			},
+		},
+	},
+	//双刃
+	zf_shuangren: {
+		rarity:
+;
+					titleDiv.innerHTML = characterTitle;
+					intro.appendChild(titleDiv);
+					// 添加分隔线
+					const hr = document.createElement(
+);
+		},
+		/**
+		 * 重新设置当前的主公的武将牌，且血量上限+1(不论当局人数是否大于3)
+		 * @param { string } name
+		 */
+		z(name) {
+			switch (name) {
+				case
+;
+			},
+			async content(event, trigger, player) {
+				trigger.cancel();
+			},
+		},
+	},
+	//稳定后勤
+	zf_wendinghouqin: {
+		rarity:
+>目标</div>');
+				uiintro.addSmall(node.targets);
+			}
+			if (node.players && node.players.length > 1) {
+				uiintro.add('<div class=
+) {
+					onError(new Error(`${scriptSource}加载失败！`));
+				}
+				return;
+			}
+			if (lib.config.fuck_sojson && scriptSource.includes(
+);
+			}
+		});
+	}
+	/**
+	 * 连接牌
+	 * @param { Card[] | Card } cards
+	 */
+	addConnectedCards(cards) {
+		if (get.itemtype(cards) ===
+);
+				event.dialog.selectedCard = null;
+			}
+			//框的部分属性
+			let itemContainerCss = event.itemContainerCss || {
+				justifyContent:
+;
+/**
+ * 使字符串有html的代码提示
+ */
+const html = (strings, ...values) => String.raw({ raw: strings }, ...values);
+
+/**
+ * @type { import(
+, position, noclick);
+			node.owner = characterName;
+			node.link = item;
+			//更改vcard的名字不然看不清
+			node.node.name.innerHTML = `<div class=
+;
+		const { default: preload } = await import(/* @vite-ignore */ path).catch(() => {
+			// Electron平台
+			if (typeof window.require ===
+plain
+			 * 闭包用法的then，不再提供parsex变量，改为使用闭包访问
+			 * 传参为 event, trigger, player
+			 *
+			 * 闭包即你可以直接在when里面访问when外面的变量
+			 * 如下：
+			 *
+) {
+					agentText += dedent`安卓应用版本: ${window.NonameAndroidBridge.getPackageVersionCode()}<br/>`;
+				}
+
+				if (typeof window.device ===
+;
+
+/**
+ * 使字符串有html的代码提示
+ */
+const html = (strings, ...values) => String.raw({ raw: strings }, ...values);
+
+/**
+ * @type { import(
+,
+			() => {
+				if (confirm(`离线包/完整包已导入成功，是否重启游戏？`)) {
+					game.reload();
+				}
+			},
+			false
+		);
+		document.addEventListener(
+);
+				const html = String.raw;
+				// 匹配[xx](url)的格式
+				const regex = /\[([^\]]*)\]\(([^)]+)\)/g;
+				lib.changeLog.push(
+					html
+);
+			}
+
+			/** @type {HTMLElement} */
+			// @ts-expect-error 忽略类型检查喵
+			const clone = element.cloneNode(true);
+			clone.classList.add(
+);
+					if (currentSkinsContainer) {
+						currentSkinsContainer.remove();
+					}
+					// 创建皮肤容器
+					let skinsContainer = ui.create.div(
+;
+			},
+			async content(event, trigger, player) {
+				await player.recover();
+			},
+		},
+	},
+	//信手拈来
+	zf_xinshounianlai: {
+		rarity:
+: 全部，true
+	 * @returns { boolean | undefined }
+	 */
+	canRespond(event, card, type) {
+		const player = this;
+		if (!event.name?.startsWith(
+)) {
+			node._initLink();
+		}
+	})();
+
+	for (const [name, content] of Object.entries(lib.help)) {
+		// 创建帮助页面的内容元素
+		const page = ui.create.div(
+} [type]
+	 * @param { number } [limit] 护甲上限
+	 * @returns { GameEvent }
+	 */
+	changeHujia(num, type, limit) {
+		var next = game.createEvent(
+}, enemy);
+			}
+		},
+		/**
+		 * 炉石模式可用，使用`spell_${name}`卡牌
+		 * @param { string } [name]
+		 * @param { boolean } [act]
+		 */
+		gs(name =
+有杀的概率
+	 */
+	mayHaveSha(viewer, type, ignore, rvt) {
+		let count = 0;
+		if ((this.hp > 2 || (!this.isZhu && this.hp > 1)) && this.hasSkillTag(
+有闪的概率
+	 */
+	mayHaveShan(viewer, type, ignore, rvt) {
+		let count = 0;
+		if ((this.hp > 2 || (!this.isZhu && this.hp > 1)) && this.hasSkillTag(
+)
+							) {
+								li2.childNodes[0].textContent = `素材版本：${window.noname_asset_list[0]}`;
+							}
+						} catch (error) {
+							console.error(
+},
+			lastDo: true,
+			async content(event, trigger, player) {
+				trigger.num = 2;
+			},
+		},
+	},
+	//卧薪尝胆
+	zf_woxinchangdan: {
+		rarity:
+,
+			});
+			let agentText = dedent`浏览器内核: ${coreInfo[0]}<br/>
+			浏览器版本: ${coreInfo[1]}.${coreInfo[2]}.${coreInfo[3]}<br/>`;
+
+			if (lib.device ===
+) {
+					originals.push(fun2);
+					contents.push(fun2);
+				} else {
+					const a = fun2;
+					//防止传入()=>xxx的情况
+					const begin = a.indexOf(
+的属性值" + messageName;
+			} else if (newMessage.includes("Cannot read properties")) {
+				messageName = newMessage.slice(newMessage.indexOf("reading
+) {
+			if (navigator.app && navigator.app.exitApp) {
+				navigator.app.exitApp();
+			}
+		}
+		//ios-cordova环境或ios浏览器环境
+		else if (lib.device ===
+;
+			}
+			if (ui.backgroundMusic) {
+				ui.backgroundMusic.pause();
+			}
+			event.settleed = false;
+			//建个框框
+			var dialog = ui.create.dialog(
+) {
+				errorCallback(new Error(`${target}不存在`));
+			}
+		} else if (!lib.node.fs.lstatSync(target).isDirectory()) {
+			if (typeof errorCallback ==
+>空房间</div>');
+			player.roomindex = i;
+			player.initRoom = lib.element.Player.prototype.initRoom;
+			player.addEventListener(lib.config.touchscreen ?
+,
+				});
+			};
+		}
+		//框的样式，不要太宽，高度最小也要100px，防止空框没有高度
+		/**@type {Row_Item_Option['itemContainerCss']} */
+		let itemContainerCss = {
+			border:
+, url);
+		oReq.send();
+	}
+
+	/**
+	 * 同步lib.init.json
+	 */
+	jsonSync(url, onload, onerror) {
+		if (lib.assetURL.length == 0 && location.origin ==
+时会调用该回调
+	 * @param {boolean} [forceLoadAsDataUrl] - 是否将资源加载为[Data URL](https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Basics_of_HTTP/Data_URLs)，默认为
+, sScriptURL);
+		oReq.send();
+	}
+
+	/**
+	 * 同步lib.init.req
+	 */
+	reqSync(str, onload, onerror, master) {
+		let sScriptURL;
+		if (str.startsWith(
+);
+					container.delete();
+					code = inputCode;
+					delete window.saveNonameInput;
+				};
+
+				code = 'card={\n    \n}\n\n/*\n示例：\ncard={\n    type:
+},
+			async content(event, trigger, player) {
+				await player.recover(get.info(event.name).num);
+			},
+		},
+	},
+	//血战Ⅱ
+	zf_xuezhan2: {
+		rarity:
+武将包《${name}》加载失败
+// 错误信息: 
+// ${e instanceof Error ? e.stack : String(e)}
+// 如果您在扩展中使用了game.import创建武将包，可将以下代码删除: lib.config.all.characters.push('武将包名');
+, 5000, 3);
+	 *                 // 调用主机的lib.skill.testSkill.iWannaTopCards2(game.me, 3, 5, 5000);
+	 *                 const cards2 = game.requestSkillData(
+, (e) => {
+	 * 	div.setBackgroundImage(e.currentSkin);
+	 * });
+	 *
+	 * // 若此时乙扩展不想继续订阅`skinChange`事件，可以通过`unsubscribe`解除订阅
+	 * lib.announce.unsubscribe(
+);
+	}
+	/**
+	 * 失去对应战法
+	 * @param {string} id 战法的id
+	 */
+	removeZhanfa(id) {
+		const skill = lib.zhanfa.getSkill(id);
+		if (!skill) {
+			console.warn(
+, {
+				cardPile: [],
+				discardPile: [],
+				ordering: [],
+				special: [],
+				noPosition: [],
+			});
+			//触发展示牌时机该时机允许修改展示牌
+			await event.trigger(
+;
+/**
+ * 使字符串有html的代码提示
+ */
+const html = (strings, ...values) => String.raw({ raw: strings }, ...values);
+
+/** 显示在菜单的名称 */
+export const startMenutabName =
+,
+	// 根据GitHub API的要求添加适当的认证头信息
+	// 如果公共仓库则无需认证，私有仓库需提供token
+	// 'Authorization': `token ${YOUR_GITHUB_PERSONAL_ACCESS_TOKEN}`
+};
+
+if (localStorage.getItem(
+,
+						short: "矮",
+						default: "中",
+						long: "高",
+					},
+					onclick(item) {
+						game.saveConfig("player_height_nova", item);
+						// if(item==
+) {
+				noclick = arguments[i];
+			}
+		}
+		var list = [];
+		const groups = [];
+		/** @type { Dialog } */
+		var dialog;
+		/** 筛选武将的信息 */
+		var node = ui.create.div(
+)) {
+					alert(`检测到您安装了使用免费版sojson进行加密的扩展。请谨慎使用这些扩展，避免游戏数据遭到破坏。\n扩展文件：${pathToRead}`);
+				}
+			}
+			try {
+				security.eval(data);
+				if (typeof onLoad ==
+] 仓库名称
+ * @param { string } [options.accessToken] 身份令牌
+ * @returns { Promise<{ download_url: string, name: string, path: string, sha: string, size: number, type:
+也理应成为路径的主要构成
+	 *
+	 * 然而由于之前的API混乱且针对多端有不同的情况，故需要提供函数，来方便提供调用旧API的情况
+	 *
+	 * @param {URL} url - 需要转换的URL对象
+	 * @param {boolean} [addAssetURL=false] - 是否需要在函数内加上
+事件，并修改自己扩展相关界面的图片：
+	 * const method = lib.announce.subscribe("skinChange", (e) => {
+	 * 	div.setBackgroundImage(e.currentSkin);
+	 * });
+	 *
+	 * // 若此时乙扩展不想继续订阅
+] 仓库名称
+ * @param { string } [options.accessToken] 身份令牌
+ * @returns { Promise<({ download_url: string, name: string, path: string, sha: string, size: number, type:
+);
+	}
+	/**
+	 * 增加玩家的标记
+	 * @param { string } i
+	 * @param { number } [num = 1]
+	 * @param { boolean } [log]
+	 */
+	addMark(i, num, log) {
+		if (typeof num !=
+>空房间</div>');
+							player.roomindex = i;
+							player.initRoom = lib.element.Player.prototype.initRoom;
+							player.addEventListener(lib.config.touchscreen ?
+, null, null, false), false).length;
+						trigger.num = Math.max(2, trigger.num - num);
+					},
+				},
+			},
+		},
+	},
+	//多多益善
+	zf_duoduoyishan: {
+		rarity:
+<div style="margin:10px">游戏操作</div><ul style="margin-top:0"><li>在命令框中输出结果<br>game.print(str)<li>清除命令框中的内容<br>cls<li>上一条/下一条输入的内容<br>up/down<li>游戏结束<br>game.over(bool)
+) {
+					agentText += dedent`安卓应用包名: ${window.NonameAndroidBridge.getPackageName()}<br/>`;
+				}
+
+				if (typeof window.NonameAndroidBridge?.getPackageVersionCode ===
+))
+					.map(k => [root, k])
+			);
+
+			continue;
+		}
+
+		// 如果下一个键不是正则表达式
+		if (!(path[1] instanceof RegExp)) {
+			const root = path.shift();
+
+			// 向下索引，并将
++ str[str.length - 1];
+		}
+		//排除声母
+		for (let i of lib.pinyins._metadata.shengmu) {
+			if (str.startsWith(i)) {
+				str = str.slice(i.length);
+				if (str[0] ==
+);
+
+				//检查tip的高度，使其不覆盖装备
+				game.callHook("checkTipBottom", [player]);
+			},
+			player,
+			index,
+			message,
+			css
+		);
+		if (isTemp && !player.storage[
+>
+						<br>①神势力武将牌单独明置时，若当前势力为神或由神势力提供，可自选势力
+						<br>②两张神势力武将牌同时明置时，可自选势力
+						<br>③神势力武将牌和确定势力的武将牌A同时明置时，势力为A武将牌的势力`,
+				},
+				initshow_draw: {
+					name:
+},
+			num: 1,
+			async content(event, trigger, player) {
+				await player.changeHujia(get.info(event.name).num);
+			},
+		},
+	},
+	//护甲Ⅱ
+	zf_hujia2: {
+		rarity:
+)) {
+				/**
+				 * @param code 源代码
+				 * @param line 代码报错行数
+				 */
+				const createShowCode = (code: string, line: number) => {
+					const lines = code.split(
+);
+			// 传入初始配置 + 渲染元素
+			dialog.addPagination({
+				// 数据
+				data: array,
+				// 总页数(向上取整)
+				totalPageCount: Math.ceil(array.length / dialog.paginationMaxCount.get(
+plain
+	 * 基于当前的scope在沙盒环境下执行给定的代码
+	 *
+	 * 参数context指定临时上下文，类似与scope但是里面的变量优先级高于scope
+	 * 另外可以通过context.this属性来指定函数的this
+	 *
+	 * 与exec的区别在于，此函数可以指定未定义变量赋值行为
+	 * 当
+, player, get.cardsInfo([card.clone]));
+					}
+				});
+			}
+		}
+		//将多张装备牌的牌替换事件合并为一个，废弃卡牌的replaceEquip自定义事件属性（反正没人用）
+		const replaceEquipEvent = game.createEvent(
+, true);
+				}
+			}
+			game.reload();
+		},
+		/**
+		 * 临时去掉“自动测试模式”带来的css效果，
+		 *
+		 * 如果要彻底关闭，需要再执行一次lib.cheat.a
+		 */
+		as() {
+			ui.window.classList.remove(
+>' + get.translation(derivation[i2]) + '台词</span>';
+									derivationVoiceMap.forEach((text, index) => {
+										const derivationTextSpan = document.createElement(
+);
+					container.delete();
+					code = resultCode;
+					delete window.saveNonameInput;
+				};
+				let code = 'skill={\n    \n}\n\n/*\n示例：\nskill={\n    trigger:{player:
+);
+				let dist2 = get.distance(game.me, player);
+				player.node.action.innerHTML = `距离：${dist2}/${dist}`;
+				if (dist > 7) {
+					player.node.action.classList.add(
+).remote;
+			}
+			var thisWindow = remote.getCurrentWindow();
+			thisWindow.destroy();
+			window.process.exit();
+		}
+		// android-cordova环境
+		else if (lib.device ===
+;
+	}
+
+	/**
+	 * 设置对应战法的稀有度
+	 * @param {string} id 战法的id
+	 * @param {string} rarity 要设置的稀有度
+	 */
+	setRarity(id, rarity) {
+		if (!this.#zhanfa[id]) {
+			console.warn(
++ get.translation(node.player) + "被" + get.translation(node.source) + "杀害</div>");
+					uiintro.addSmall([node.source]);
+				}
+			}
+			if (node.skill) {
+				uiintro.add(
+) {
+					agentText += dedent`安卓版本: ${device.version}<br/>
+					安卓SDK版本: ${device.sdkVersion}<br/>
+					设备制造商: ${device.manufacturer}<br/>`;
+				}
+			} else if (lib.device ===
+in lib) {
+			lib.onload.add(callHook);
+		} else {
+			callHook();
+		}
+	}
+	//Yingbian
+	//应变
+	yingbianEffect(event, content) {
+		const yingbianEffect = game.createEvent(
+);
+			}
+		}
+	}
+	/**
+	 * 为牌添加知情者
+	 * @param { Card[] | Card } cards
+	 * @param { Player[] } players
+	 */
+	addCardKnower(cards, players) {
+		if (get.itemtype(cards) ==
++ (toc - tic));
+	}
+	/**
+	 * 此方法仅用作将技能/卡牌代码转为字符串，返回值无法直接进行反序列化
+	 * @param { any } obj
+	 * @param { number } [level = 0]
+	 */
+	stringify(obj, level = 0) {
+		let indent =
+));
+				}
+			}
+		);
+	};
+
+	/**
+	 * 检查指定的路径是否是一个目录
+	 *
+	 * @param {string} dir - 需要查询的路径
+	 * @param {(result: -1 | 0 | 1) => void} [callback] - 回调函数；接受的参数意义如下:
+	 *  -
+);
+	}
+	/**
+	 * 同步装备区废除牌显示状态
+	 * @param { SMap<number> } [map]
+	 */
+	$syncDisable(map) {
+		//TODO:虚拟装备牌的添加暂时没有考虑到废除装备栏的情况，会出现排序错误的问题。需要手动设置排序。
+		const suits = { equip3:
+) {
+				num = num(event, trigger, player);
+			}
+			trigger.num += num;
+		},
+	},
+	//某个时机检索并获得X张特定的牌（X默认为1），时机默认为回合开始时
+	zf_anyGain: {
+		forced: true,
+		trigger: { player:
+, cards2, filterDiscard = { suit: get.suit(cards2[0]) } } = event;
+					const result = await player
+						.chooseCard(`请选择火攻要展示的牌`, discardPostion, filterDiscard)
+						.set(
+);
+							// 设置不同字体时，修改对应node的文字字体
+							this.config.textMenu?.(node, link, this.config.item[link], this.config);
+						});
+					}
+					if (typeof this.config.visualBar ==
+>已横置</div>');
+		var list = [];
+		for (var i = 0; i < game.players.length; i++) {
+			if (game.players[i].isLinked() && game.players[i].name && !game.players[i].name.startsWith(
+]
+			.filter(prop => player[prop])
+			.map(prop => player[prop])
+			.toUniqued();
+	}
+
+	position(card, ordering) {
+		//哪个大聪明在返回牌位置的函数写返回玩家位置的功能
+		if (get.itemtype(card) ==
+开启后将启用部分仍处于实验性质的功能，将改变无名杀现有的部分逻辑（重启后生效）
+						<br />
+						※ 实验性功能无法保证API稳定，如需使用请及时跟进本体进展
+						<br />
+						※ 以API为主的功能不提供具体实现，如需使用请自行实现
+						<br />
+						※ 部分功能将会作用于联机模式
+); // 指定监听 value 属性
+ * monitor.filter((access, nameds) => nameds.value >= 0); // 过滤掉大于等于 0 的修改
+ * monitor.then((access, nameds, control) => {
+ *     control.overrideParameter(
+) {
+			const filelist = Object.keys(data);
+			filelist.forEach(value => zip.file(value, data[value]));
+			if (exportExtension) {
+				//导出
+				game.export(zip.generate({ type:
+, num, log);
+			}
+		}
+	}
+	/**
+	 * 移去蓄力点
+	 * @param { number } [num = 1] 移去蓄力点数
+	 * @param { boolean } [log] false: 不进行广播
+	 */
+	removeCharge(num, log) {
+		if (typeof num !=
+js
+		 * // 传入player是卡牌的使用者
+		 * // 传入player数组是卡牌的目标(没有则目标是game.me)
+		 * // 传入字符串设置卡牌名称
+		 * // 传入Vcard对象设置卡牌更具体的卡牌信息
+		 * lib.cheat.u(player1, 'sha', [player2, player3]);
+		 *
+,
+			},
+		],
+		[
+			"星",
+			{
+				color: "#ffd700",
+				nature: "glodenmm",
+			},
+		],
+		[
+			"OL界",
+			{
+				/**
+				 * @returns {string}
+				 */
+				getSpan: () =>
+, lib.config.customcardpile);
+				createPileNode(name);
+				createList();
+			};
+		};
+	})();
+
+	if (!connectMenu) {
+		// 下面使用了var的特性，请不要在这里直接改为let
+		var node1 = ui.create.div(
+: 单个日志对象，自动包装成数组
+	 * @param { string } [extname] 扩展名，未输入则使用_status.extension
+	 */
+	showExtensionChangeLog(str, extname) {
+		extname = extname || _status.extension;
+		const cfg =
+线下拓展包【国战无双】的机制，启用后神将势力规则改为：<span style="font-family:xinwei">
+						<br>①神势力武将牌单独明置时，若当前势力为神或由神势力提供，可自选势力
+						<br>②两张神势力武将牌同时明置时，可自选势力
+						<br>③神势力武将牌和确定势力的武将牌A同时明置时，势力为A武将牌的势力
+)) {
+				// 排除4个基本扩展
+				// 给扩展的武将包加一个开启关闭的功能
+				if (!lib.config.all.stockextension.includes(mode.slice(15))) {
+					page.appendChild(cfgnode);
+					cfgnodeAI.style.marginTop =
+),
+				cards = [],
+				otherGetCards = event.otherPile?.[game.me.playerid]?.getCards,
+				otherDiscacrd = event.otherPile?.[game.me.playerid]?.discard;
+			//先弃牌
+			game.addVideo(
+);
+			},
+			async content(event, trigger, player) {
+				trigger.directHit.addArray(player.getEnemies(() => true, false));
+			},
+		},
+	},
+	//应急方案
+	zf_yingjifangan: {
+		rarity:
+);
+				}, 500);
+			};
+			//开搞
+			game.pause();
+			game.countChoose();
+			event.choosing = true;
+		} else if (event.isOnline()) {
+			event.send();
+		} else {
+			event.result =
+) {
+					if (typeof arg !== typeof info.ai[tag]) {
+						console.warn(`lib.skill.${skills[i]}.ai.${tag}类型不符\nhasSkillTag：`, arg);
+					}
+					if (info.ai[tag] == arg) {
+						// 全凭
+),
+										arraybuffer => {
+											dieaudionode.arrayBuffer = arraybuffer;
+											resolve();
+										},
+										() => {
+											console.warn(`未找到${dieAudios[i].replace(
+;
+	//func中要写步骤的话，必须要写step 0
+	step: number = 0;
+	contents: GeneralFunction[] = [];
+	originals: GeneralFunction[] = [];
+
+	constructor(func: GeneralFunction) {
+		if (typeof func !==
+;
+			},
+			async content(event, trigger, player) {
+				trigger.directHit.addArray(game.filterPlayer(target => target != player));
+			},
+		},
+	},
+	//狂暴
+	zf_kuangbao: {
+		rarity:
+in game && game.observe) {
+			return;
+		}
+
+		// 也许客机检查是不必要的喵
+		// // @ts-expect-error 重载函数可以接受所有类型参数喵
+		// const info = get.info(name);
+
+		// if (!info) {
+		// 	throw new Error(
+);
+					//获取sourcemap
+					try {
+						const source = stackframes[0].source;
+						if (!source?.fileName) throw new Error();
+
+						let rawSourceMap = lib.init.reqSync(sourcePath +
+]
+	 * ```
+	 *
+	 * @param {string} path
+	 * @param {Window} window
+	 * @returns {[Object, string]} [索引对象, 索引键名]
+	 */
+	static parseIndex(path, window) {
+		const items = path.split(
++ Math.random().toString(36).slice(-8);
+		} while (lib.skill[skillName] != null);
+		const vars = {};
+		//获取sourceSkill
+		let eventName = get.event().name;
+		if (eventName.startsWith(
+);
+	}
+	/**
+	 * 让一名角色明置一些手牌
+	 */
+	addShownCards() {
+		const cards = [],
+			tags = [];
+		for (const argument of arguments) {
+			const type = get.itemtype(argument);
+			if (type ==
+);
+					const showCode: string[] = [];
+					// 10行窗口
+					for (let i = Math.max(0, line - 5); i < line + 6 && i < lines.length; i++) {
+						showCode.push(`${i + 1}| ${line == i + 1 ?
++ lib.translate["_" + career + "_skill_info"] + "</div>");
+		} else if (node.classList.contains("skillbar")) {
+			if (node == ui.friendBar) {
+				uiintro.add("友方怒气值");
+				uiintro.add(
+, //正常，即与普通伤害音效相同。
+			/*
+			'example':{
+				1:'../extension/XXX/damage_example.mp3',//1点伤害。
+				2:'../extension/XXX/damage_example2.mp3',//2点及以上伤害
+			}
+			*/
+		},
+		sha: {
+			fire:
++ " " + "</span>";
+					}
+					// 获取武将称号
+					var charactertitle = get.characterTitle(name, false, false);
+					var titleHtml = "";
+					if (charactertitle.length) {
+						titleHtml =
++ derivationname + "</span>" + derivationtranslationinfo;
+								}
+							}
+						}
+
+						// 添加技能append
+						if (lib.translate[this.link + "_append"]) {
+							intro2.innerHTML +=
+);
+				});
+			}, cards);
+			game.updateConnectedCards();
+		}
+	}
+	/**
+	 * 重置连接牌
+	 * @param { Card[] | Card } cards
+	 */
+	removeConnectedCards(cards) {
+		if (get.itemtype(cards) ===
+) when([xxx1,xxx2])//均会被解析为：player:xxx或player:[xxx1,xxx2]
+	 *
+	 * when({player:xxx})或when({global:[xxx]})//对象类型将直接应用
+	 *
+	 * when(xxx1,xxx2)//解析为player:[xxx1,xxx2]
+	 *
+	 * when({player:
+).filter(Boolean);
+
+	items.unshift(window);
+
+	const pathes = [items];
+
+	/** @type {Array<[any, string|symbol]>} */
+	const indexes = [];
+
+	// 将所有路径转换为索引
+	// 如: /a/b/c => [window.a.b,
+, lib.configOL, get.arenaState(), game.getState ? game.getState() : {}, game.ip, game.players[0].playerid, null, _status.cardtag, _status.postReconnect);
+						// 没有系统提示的接口喵？
+						game.log(
+, num);
+				next.setContent(async (event, trigger, player) => {
+					const { num } = event;
+					await player.gainMaxHp(num);
+				});
+			},
+		},
+	},
+	//增寿Ⅱ
+	zf_zengshou2: {
+		rarity:
+)];
+								game.print(`${fileName}(${i}/${entries.length})`);
+								await game.promises.writeFile(value.asArrayBuffer(), path, name).catch(async e => {
+									// 特殊处理
+									if (name ==
+读取
+	 * @param { number } r 最大值限制，默认13
+	 * @param { number } l 最小值限制，默认1
+	 * @returns { { nums: number[], max: number, min: number } }
+	 */
+	guessTargetPoints(target, viewer, cards, access =
+],
+	]);
+	/**
+	 * the cards which can respond card
+	 *
+	 * 卡牌的可被响应牌（主要是用于player.canRespond函数）
+	 * 例如可响应杀的主要就是闪，或者本体的草船借箭，以此类推；
+	 * 类似劝酒这种复杂条件的，可以放函数，但仅检测实体牌
+	 */
+	respondMap = {
+		sha: [
+;
+								if (obj) {
+									// 解决访问caller报错等问题
+									let type;
+									try {
+										type = typeof obj[text];
+									} catch {
+										void 0;
+									}
+									if (type ==
+plain
+ * 需要封装传递ExecuteContext的函数
+ *
+ * 根据HTML现有函数设置
+ * 请不要改动下面的列表
+ * 
+ * 补充:
+ * 对于需要执行回调函数的功能，沙盒本身的运行域因为被卸载了document，受限于浏览器规则不会被执行
+ * 这时候我们需要借助顶级域的执行上下文，将回调函数包装（封送）到顶级的运行域中，保证回调函数正常执行
+ *
+, null, event.videoId);
+				}
+			}
+		},
+		async (event, trigger, player) => {
+			const { cards, str } = event;
+			//新增callback事件
+			if (event.callback) {
+				const next = game.createEvent(
+);
+		}
+
+		this.#snippetStack.push(snippet);
+	}
+
+	/**
+	 * ```plain
+	 * 弹出当前代码片段
+	 * ```
+	 */
+	static popSnippet(): CodeSnippet {
+		if (!this.#snippetStack.length) {
+			throw new Error(
+;
+		const writeContextAction = { exists: 0, extend: 1, all: 2 }[writeContext] || 0;
+
+		let argumentList;
+		let wrappedEval;
+
+		// 必须使用严格模式否则会导致this逃逸
+		const raw = new thiz.#domainFunction(
+},
+		num: 1,
+		async content(event, trigger, player) {
+			await player.draw(get.info(event.name).num);
+		},
+	},
+	//使用的特定的牌伤害+X（X默认为1）
+	zf_cardDamage: {
+		forced: true,
+		trigger: { player:
+, window.a.b.c]
+	 * ```
+	 *
+	 * @param {string|string[]} path
+	 * @param {Window} window
+	 * @returns {[string, any]} [映射键名, 映射值]
+	 */
+	static parseFrom(path, window) {
+		if (typeof path ==
+),
+											arraybuffer => {
+												dieaudionode.arrayBuffer = arraybuffer;
+												resolve();
+											},
+											() => {
+												console.warn(`未找到${info[4][i].slice(4).replace(
+, //正常，即与普通伤害音效相同。
+			/*
+			'example':{
+				1:'../extension/XXX/damage_example.mp3',//1点伤害。
+				2:'../extension/XXX/damage_example2.mp3',//2点及以上伤害
+			}
+			*/
+		},
+		hujia_damage: {
+			fire:
++ JSON.stringify(window.noname_update.cards));
+		}
+		delete window.noname_update;
+	}
+
+	// 虽然但是，我就暴露个import，应该没啥问题
+	window.game = {
+		import: game.import.bind(null),
+	};
+
+	// if (config.get(
+,
+			},
+		],
+		[
+			"长安",
+			{
+				showName: "镐",
+				color: "#40e0d0",
+				nature: "shenmm",
+			},
+		],
+		[
+			"长安神",
+			{
+				/**
+				 * @returns {string}
+				 */
+				getSpan: () =>
+,
+			},
+		],
+		[
+			"渭南",
+			{
+				showName: "渭",
+				color: "#2a17d5",
+				nature: "shenmm",
+			},
+		],
+		[
+			"渭南神",
+			{
+				/**
+				 * @returns {string}
+				 */
+				getSpan: () =>
+)?.player != player).indexOf(event) == 0;
+				}
+			},
+			async content(event, trigger, player) {
+				trigger.num += get.info(event.name).num;
+			},
+		},
+	},
+	//衡锋Ⅱ
+	zf_hengfeng2: {
+		rarity:
+)[1].match(regex);
+						if (match) {
+							log.push(...createShowCode(codes.toString(), parseInt(match[1])));
+						}
+					}
+				}
+				// 协议名须和html一致(网页端防跨域)，且文件是js
+				else if (typeof src ==

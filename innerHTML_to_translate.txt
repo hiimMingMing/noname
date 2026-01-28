@@ -1,0 +1,473 @@
+（与
+1秒
+5秒
+1人
+魏：
+蜀：
+吴：
+群：
+晋：
+西：
+键：
+栏：
+数+1
+10秒
+20秒
+60秒
+12人
+16人
+20人
+24人
+40人
+TW神
+TW将
+OL神
+界SP
+OL界
+OL谋
+OL乐
+TW谋
+15秒
+30秒
+90秒
+0.5秒
+0.7秒
+1.5秒
+2.5秒
+新1v1
+<div>翻面<div>
+引用了一个未定义的变量：
+计算get.effect(
+],
+				二波: [
+],
+				三皆: [
+],
+				四开: [
+],
+				五微: [
+],
+				六豪: [
+],
+				七尤: [
+],
+				八寒: [
+],
+				九文: [
+],
+				十唐: [
+能不能快一点啊，兵贵神速啊
+],
+				十一庚: [
+],
+				十二齐: [
+],
+				十三支: [
+],
+				十四姑: [
+代码语法有错误，请仔细检查（
+<span>重来</span>
+<span>退出</span>
+<span>记录</span>
+, //恢复撤销
+				//
+计算get.effect_use(
+, '名称：<input type=
+更多 <div>&gt;</div>
+, '姓名：<input class=
+, '介绍：<input class=
+, '名称：<input class=
+, '描述：<input class=
+编辑牌堆 <div>&gt;</div>
+导入扩展 <div>&gt;</div>
+导入素材包 <div>&gt;</div>
+>上移↑</div><div class=
+)}】的效果。`,
+			],
+			[
+for...of 循环的头部包含有初始化表达式
+for...in 循环的头部包含有初始化表达式
+, '<span>主公<input type=
+],
+			yunjiao: {
+				一麻: [
+) {
+			str += '对<span class=
+的样式
+	 * game.dynamicStyle.add(
+'属性，任何 Primitive 值都不允许有property
+);
+	 *
+	 * @example
+	 * // 移除
+]);
+	 *
+	 * @example
+	 * // 如果
+],
+		//所有锦囊都可以用无懈可击响应
+		trick: [
+元素的样式
+	 * game.dynamicStyle.remove(
+],
+		//所有伤害牌都可以用草船借箭响应
+		damage: [
+;
+		// 设置帮助页面的类名
+		page.classList.add(
+样式
+	 * game.dynamicStyle.removeStyles(
+;
+
+// 用于标识Map、Set等对象在序列化中的类型
+// 使用了md5(
+) {
+					// 新增武将包，且不是“收藏”和“禁用”
+					if (![
+) {
+				//非开发者模式下，提示这些单词
+				list.addArray([
+>意见</div>');
+					var buttons = ui.create.div(
+);
+		//转换技转换时
+		let next2 = game.createEvent(
+;
+	// 获取小数点处的索引
+	let index = sizeStr.indexOf(
+;
+		//规则集中的“回合开始后⑦”，国战武将明置武将牌
+		event.trigger(
+);
+
+			// 初始化poptip名称
+			doc.querySelectorAll(
+;
+		//规则集中的“回合开始后②（1v1武将登场专用）”
+		event.trigger(
+;
+			shareExtLine.innerHTML = '已导出扩展。<span class=
+>锁定技</span>').
+		// 	replace(/限定技/g,'<span class=
+>限定技</span>').
+		// 	replace(/觉醒技/g,'<span class=
+>觉醒技</span>').
+		// 	replace(/主将技/g,'<span class=
+>主将技</span>').
+		// 	replace(/副将技/g,'<span class=
+>副将技</span>').
+		// 	replace(/阵法技/g,'<span class=
+>阵法技</span>').
+		// 	replace(/主公技/g,'<span class=
+;
+		//规则集中的“回合开始后④（卑弥呼〖纵傀〗的时机）”
+		event.trigger(
+).value;
+					//体力支持‘Infinity,∞,无限’表示无限
+					if ([
+];
+	//数值代表各元素在名称中排列的先后顺序
+	nature = new Map([
+		[
+) {
+				contentObject.mount(page);
+			}
+			// 如果对象拥有
+<li>玩家的上/下家（含阵亡）<br>game.me.previousSeat/<br>nextSeat
+)) {
+			//卡牌长按介绍
+			if (ui.arena.classList.contains(
+;
+					// 创建皮肤列表
+					let skinsList = ui.create.div(
+);
+			} else {
+				game.log(player, '被贴上了<span class=
+)) {
+					// 扩展卡牌包开启逻辑
+					if (node.mode.startsWith(
+)) {
+					// 扩展武将包开启逻辑
+					if (node.mode.startsWith(
+);
+				} else {
+					game.log(player, '被贴上了<span class=
+, `${w}px`);
+
+				//检查tip的高度，使其不覆盖装备
+				game.callHook(
+,//全选
+			},
+		});
+		lib.setScroll(editor.querySelector(
+><button>确定</button>', importExtension);
+			ui.create.div(
+>更改皮肤</div>');
+						}
+						var buttons = ui.create.div(
+, result[1]);
+
+		/**
+		 * 通用解析版本号方法
+		 *
+		 * @param {
+: 全部，true
+	 */
+	hasShan(respond) {
+		if (this.countCards(
+>该武将包不可被隐藏</span>', page);
+				} else if (!mode.startsWith(
+>详细信息</span>';
+									promptnode.firstChild.querySelector(
+<ul><li>列表1-条目1<li>列表1-条目2</ul><ol><li>列表2-条目1<li>列表2-条目2</ul>
+开头，基本能判定为URL，无需重复判断）
+		if (URL.canParse(ip) && (ip.startsWith(
+);
+			}
+		}
+
+		// 根据157的要求移除掉本体的五行扩展哦喵
+		if (game.hasExtension(
+) {
+				exportExtLine.innerHTML = '已保存。退出游戏并重新打开后生效<span class=
+],
+		//所有基本牌或普通锦囊牌都可以响应
+		all: [],
+		//也可以放函数
+		khquanjiu: [
+) {ver2 = String(ver2);}
+
+	// 移除 'v' 开头
+	if (ver1.startsWith(
+) {
+			// 控制显示的区域
+			const intro2Node = uiintro.querySelector(
+;
+		//规则集中的“回合开始后⑨”，进行当先，化身等操作
+		//没有⑧ 因为⑧用不到
+		event.trigger(
+;
+						})
+				);
+			}
+		}
+		//手动触发时机
+		await event.trigger(
+>引文</span><br>';
+							const appendDiv = document.createElement(
+) {
+			next.cards = result.cards.slice(0);
+		}
+		//语法糖部分
+		if (
+) {
+				// 我思索了一下，如果这玩意能造成无限递归
+				// 那么我只能说，你赢了
+				game.getDB(
+,toggle_example:true}\n导出时本段代码中的换行、缩进以及注释将被清除\n*/');
+				createCode(
+;
+				};
+			} else {
+				exportExtLine.innerHTML = '重启后生效。<span class=
+>' + game.roundNumber + '</span>&nbsp;&nbsp;&nbsp;&nbsp;洗牌 <span style=
+>应变：${yingbianEffects.map(value => lib.yingbian.prompt.get(value)).join(
+>点击或拖动两张牌以交换位置；点击一张牌并点击其他区域或拖动到其他区域以移动卡牌</div>');
+				tex.classList.add(
+);
+		// 创建帮助按钮
+		// TODO: 对是否应该对按钮进行其他框架的挂载处理
+		var node = ui.create.div(
+, ui.click.button);
+				// 将容器加入到dialog.buttons
+				itemContainer.closest(
+，无则均加入
+	 * @param { Card[] | Card | boolean } [ignore] 此牌/这些牌不纳入考量。若 type 为
+><button>确定</button>', importExtension);
+			var promptnode = ui.create.div(
+) {
+			/** @type {object} */
+			const contentObject = content;
+
+			// 如果对象拥有
+;
+			}
+			// 否则...鉴于原先存在地址为域名/localhost的情况，鉴于原先的联机地址不兼容pathname，如果pathname为
+的样式修改为给定的样式
+	 * // 反之效果同`game.dynamicStyle.add`
+	 * game.dynamicStyle.update(
+);
+		}
+	},
+	//增加明置手牌
+	addShownCards: () => {
+		const hs = player.getCards(
+>此牌标签：${gaintag}</div>`);
+						}
+					}
+				}
+				uiintro.add(ui.create.div(
+, path);
+	}
+
+	// 水墨指示线
+	zsMohuaLineXy(path) {
+		game.zsPlayLineAnimationByName(
+, path);
+	}
+
+	// 暗黑指示线
+	zsAnheiLineXy(path) {
+		game.zsPlayLineAnimationByName(
+>等待中</span>　';
+					if (this.version != lib.versionOL) {
+						this.classList.add(
+, path);
+	}
+
+	// 御剑指示线
+	zsYujianLineXy(path) {
+		game.zsPlayLineAnimationByName(
+, path);
+	}
+
+	// 魔爪指示线
+	zsMozhuaLineXy(path) {
+		game.zsPlayLineAnimationByName(
+);
+	}
+	/**
+	 * 令玩家进入混乱状态
+	 */
+	goMad(end) {
+		if (end) {
+			this.addTempSkill(
+);
+			}
+		},
+		/**
+		 * 自己立即获得闪电，火山，洪水，乐不思蜀，鬼幽结
+		 */
+		gj() {
+			lib.cheat.g(
+, path);
+	}
+
+	// 金箭指示线
+	zsJinjianLineXy(path) {
+		game.zsPlayLineAnimationByName(
+, path);
+	}
+
+	// 金龙指示线
+	zsJinlongLineXy(path) {
+		game.zsPlayLineAnimationByName(
+, path);
+	}
+
+	// 落英指示线
+	zsLuoyingLineXy(path) {
+		game.zsPlayLineAnimationByName(
+, path);
+	}
+
+	// 星蝶指示线
+	zsXingdieLineXy(path) {
+		game.zsPlayLineAnimationByName(
+, path);
+	}
+
+	// 月仙指示线
+	zsYuexianLineXy(path) {
+		game.zsPlayLineAnimationByName(
+,
+				/**
+				 * @type {() => string}
+				 */
+				() => `抵消所需要的【${get.translation(
+, path);
+	}
+
+	// 竹杖指示线
+	zsZhuzhangLineXy(path) {
+		game.zsPlayLineAnimationByName(
+, path);
+	}
+
+	// 神剑指示线
+	zsShenjianLineXy(path) {
+		game.zsPlayLineAnimationByName(
+, path);
+	}
+
+	// 剑锋指示线
+	zsJianfengLineXy(path) {
+		game.zsPlayLineAnimationByName(
+, path);
+	}
+
+	// 蛇杖指示线
+	zsShezhangLineXy(path) {
+		game.zsPlayLineAnimationByName(
+,
+				/**
+				 * @type {() => string}
+				 */
+				() => `使用时视为两张【${get.translation(
+, path);
+	// }
+	// 先攻指示线
+	zsXiangongLineXy(path) {
+		game.zsPlayLineAnimationByName(
+;
+		game.phaseNumber++;
+		//初始化阶段列表
+		if (!event.phaseList) {
+			event.phaseList = [
+).push(logInfo);
+			//尽可能别往这写插入结算
+			//不能用来终止技能发动！！！
+			var next2 = game.createEvent(
+, respond);
+	}
+	/**
+	 * 有没有可用闪
+	 * @param { string | boolean } [respond] 响应什么类型，默认使用。
+)) {
+			throw new TypeError(`设置了branch参数后，不应在path参数内拼接ref`);
+		}
+		searchParams.append(
+;
+		if (plainText) {
+			// 排除掉本体的几个颜色样式标记，如#r、#p、#g、#b
+			if (characterTitle.startsWith(
+, info);
+		}
+		const str = get.pureFunctionStr(info.slice(13), true); // 清洗函数并阻止注入
+		if (
+)}阵亡配音`);
+											resolve();
+										}
+									);
+								} else {
+									game.getDB(
+>自动发动</div></div></div>');
+						var underlinenode = uiintro.content.lastChild.querySelector(
+;
+		//规则集中的“回合开始后③（处理“游戏开始时”的时机）”
+		//提前phaseBefore时机解决“游戏开始时”时机和“一轮开始时”先后
+		event.trigger(
+>预亮技能</div></div></div>');
+							var underlinenode = uiintro.content.lastChild.querySelector(
+>自动发动</div></div></div>');
+							var underlinenode = uiintro.content.lastChild.querySelector(
+)}阵亡配音`);
+												resolve();
+											}
+										);
+									} else {
+										game.getDB(
+) : undefined).trim();
+					// 防止注入喵
+					if (!get.isFunctionBody(str2)) {
+						throw new Error(
